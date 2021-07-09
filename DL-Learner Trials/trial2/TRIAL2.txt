@@ -1,0 +1,3 @@
+TRIAL 2 
+
+In this second trial we have introduced the class age that has three instances (twnties,thirties,forties) and we intended to make the classification take that new class into account but it did not work, maybe because they are instances of the class age, rather each one a class, but for that we would have had to make instances for each of the age subclass.

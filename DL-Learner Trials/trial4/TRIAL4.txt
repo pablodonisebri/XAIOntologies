@@ -1,0 +1,12 @@
+TRIAL 4
+
+This time we tried to do the same as we did in Trial 3, but this time the data comes from a mapping from a csv to rdf. Apparently it was not working properly as it does not construct the appropiate rules for the classification. This was caused due to the fact that in the mapping we are missing the following statements that we added manually (in TRIAL 4-1):
+
+<http://www.titanicTrial#Age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.titanicTrial#Age> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.titanicTrial#age> .
+<http://www.titanicTrial#age> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class>.
+<http://www.titanicTrial#Passegner> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class>.
+<http://www.titanicTrial#cabinClassType> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class>.
+<http://www.titanicTrial#cabinClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+
+The intended classification was males in their 20s and from lower class. It did work in TRIAL 4-1 but not in TRIAL 4.

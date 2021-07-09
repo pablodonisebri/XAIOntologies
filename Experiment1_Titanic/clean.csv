@@ -1,0 +1,892 @@
+PassengerId,Survived,Pclass,Name,Sex,Age,SibSp,Parch,Ticket,Fare,Cabin,Embarked
+1,0.0,lower,"Braund,_Mr._Owen_Harris",male,22,1,0,A/5 21171,7.25,B96_B98,S
+2,1.0,upper,"Cumings,_Mrs._John_Bradley_(Florence_Briggs_Thayer)",female,38,1,0,PC 17599,71.2833,C85,C
+3,1.0,lower,"Heikkinen,_Miss._Laina",female,26,0,0,STON/O2. 3101282,7.925,B96_B98,S
+4,1.0,upper,"Futrelle,_Mrs._Jacques_Heath_(Lily_May_Peel)",female,35,1,0,113803,53.1,C123,S
+5,0.0,lower,"Allen,_Mr._William_Henry",male,35,0,0,373450,8.05,B96_B98,S
+6,0.0,lower,"Moran,_Mr._James",male,29,0,0,330877,8.4583,B96_B98,Q
+7,0.0,upper,"McCarthy,_Mr._Timothy_J",male,54,0,0,17463,51.8625,E46,S
+8,0.0,lower,"Palsson,_Master._Gosta_Leonard",male,2,3,1,349909,21.075,B96_B98,S
+9,1.0,lower,"Johnson,_Mrs._Oscar_W_(Elisabeth_Vilhelmina_Berg)",female,27,0,2,347742,11.1333,B96_B98,S
+10,1.0,middle,"Nasser,_Mrs._Nicholas_(Adele_Achem)",female,14,1,0,237736,30.0708,B96_B98,C
+11,1.0,lower,"Sandstrom,_Miss._Marguerite_Rut",female,4,1,1,PP 9549,16.7,G6,S
+12,1.0,upper,"Bonnell,_Miss._Elizabeth",female,58,0,0,113783,26.55,C103,S
+13,0.0,lower,"Saundercock,_Mr._William_Henry",male,20,0,0,A/5. 2151,8.05,B96_B98,S
+14,0.0,lower,"Andersson,_Mr._Anders_Johan",male,39,1,5,347082,31.275,B96_B98,S
+15,0.0,lower,"Vestrom,_Miss._Hulda_Amanda_Adolfina",female,14,0,0,350406,7.8542,B96_B98,S
+16,1.0,middle,"Hewlett,_Mrs._(Mary_D_Kingcome)_",female,55,0,0,248706,16.0,B96_B98,S
+17,0.0,lower,"Rice,_Master._Eugene",male,2,4,1,382652,29.125,B96_B98,Q
+18,1.0,middle,"Williams,_Mr._Charles_Eugene",male,29,0,0,244373,13.0,B96_B98,S
+19,0.0,lower,"Vander_Planke,_Mrs._Julius_(Emelia_Maria_Vandemoortele)",female,31,1,0,345763,18.0,B96_B98,S
+20,1.0,lower,"Masselmani,_Mrs._Fatima",female,29,0,0,2649,7.225,B96_B98,C
+21,0.0,middle,"Fynney,_Mr._Joseph_J",male,35,0,0,239865,26.0,B96_B98,S
+22,1.0,middle,"Beesley,_Mr._Lawrence",male,34,0,0,248698,13.0,D56,S
+23,1.0,lower,"McGowan,_Miss._Anna_""Annie""",female,15,0,0,330923,8.0292,B96_B98,Q
+24,1.0,upper,"Sloper,_Mr._William_Thompson",male,28,0,0,113788,35.5,A6,S
+25,0.0,lower,"Palsson,_Miss._Torborg_Danira",female,8,3,1,349909,21.075,B96_B98,S
+26,1.0,lower,"Asplund,_Mrs._Carl_Oscar_(Selma_Augusta_Emilia_Johansson)",female,38,1,5,347077,31.3875,B96_B98,S
+27,0.0,lower,"Emir,_Mr._Farred_Chehab",male,29,0,0,2631,7.225,B96_B98,C
+28,0.0,upper,"Fortune,_Mr._Charles_Alexander",male,19,3,2,19950,263.0,C23_C25_C27,S
+29,1.0,lower,"O'Dwyer,_Miss._Ellen_""Nellie""",female,29,0,0,330959,7.8792,B96_B98,Q
+30,0.0,lower,"Todoroff,_Mr._Lalio",male,29,0,0,349216,7.8958,B96_B98,S
+31,0.0,upper,"Uruchurtu,_Don._Manuel_E",male,40,0,0,PC 17601,27.7208,B96_B98,C
+32,1.0,upper,"Spencer,_Mrs._William_Augustus_(Marie_Eugenie)",female,29,1,0,PC 17569,146.5208,B78,C
+33,1.0,lower,"Glynn,_Miss._Mary_Agatha",female,29,0,0,335677,7.75,B96_B98,Q
+34,0.0,middle,"Wheadon,_Mr._Edward_H",male,66,0,0,C.A. 24579,10.5,B96_B98,S
+35,0.0,upper,"Meyer,_Mr._Edgar_Joseph",male,28,1,0,PC 17604,82.1708,B96_B98,C
+36,0.0,upper,"Holverson,_Mr._Alexander_Oskar",male,42,1,0,113789,52.0,B96_B98,S
+37,1.0,lower,"Mamee,_Mr._Hanna",male,29,0,0,2677,7.2292,B96_B98,C
+38,0.0,lower,"Cann,_Mr._Ernest_Charles",male,21,0,0,A./5. 2152,8.05,B96_B98,S
+39,0.0,lower,"Vander_Planke,_Miss._Augusta_Maria",female,18,2,0,345764,18.0,B96_B98,S
+40,1.0,lower,"Nicola-Yarred,_Miss._Jamila",female,14,1,0,2651,11.2417,B96_B98,C
+41,0.0,lower,"Ahlin,_Mrs._Johan_(Johanna_Persdotter_Larsson)",female,40,1,0,7546,9.475,B96_B98,S
+42,0.0,middle,"Turpin,_Mrs._William_John_Robert_(Dorothy_Ann_Wonnacott)",female,27,1,0,11668,21.0,B96_B98,S
+43,0.0,lower,"Kraeff,_Mr._Theodor",male,29,0,0,349253,7.8958,B96_B98,C
+44,1.0,middle,"Laroche,_Miss._Simonne_Marie_Anne_Andree",female,3,1,2,SC/Paris 2123,41.5792,B96_B98,C
+45,1.0,lower,"Devaney,_Miss._Margaret_Delia",female,19,0,0,330958,7.8792,B96_B98,Q
+46,0.0,lower,"Rogers,_Mr._William_John",male,29,0,0,S.C./A.4. 23567,8.05,B96_B98,S
+47,0.0,lower,"Lennon,_Mr._Denis",male,29,1,0,370371,15.5,B96_B98,Q
+48,1.0,lower,"O'Driscoll,_Miss._Bridget",female,29,0,0,14311,7.75,B96_B98,Q
+49,0.0,lower,"Samaan,_Mr._Youssef",male,29,2,0,2662,21.6792,B96_B98,C
+50,0.0,lower,"Arnold-Franchi,_Mrs._Josef_(Josefine_Franchi)",female,18,1,0,349237,17.8,B96_B98,S
+51,0.0,lower,"Panula,_Master._Juha_Niilo",male,7,4,1,3101295,39.6875,B96_B98,S
+52,0.0,lower,"Nosworthy,_Mr._Richard_Cater",male,21,0,0,A/4. 39886,7.8,B96_B98,S
+53,1.0,upper,"Harper,_Mrs._Henry_Sleeper_(Myna_Haxtun)",female,49,1,0,PC 17572,76.7292,D33,C
+54,1.0,middle,"Faunthorpe,_Mrs._Lizzie_(Elizabeth_Anne_Wilkinson)",female,29,1,0,2926,26.0,B96_B98,S
+55,0.0,upper,"Ostby,_Mr._Engelhart_Cornelius",male,65,0,1,113509,61.9792,B30,C
+56,1.0,upper,"Woolner,_Mr._Hugh",male,29,0,0,19947,35.5,C52,S
+57,1.0,middle,"Rugg,_Miss._Emily",female,21,0,0,C.A. 31026,10.5,B96_B98,S
+58,0.0,lower,"Novel,_Mr._Mansouer",male,28,0,0,2697,7.2292,B96_B98,C
+59,1.0,middle,"West,_Miss._Constance_Mirium",female,5,1,2,C.A. 34651,27.75,B96_B98,S
+60,0.0,lower,"Goodwin,_Master._William_Frederick",male,11,5,2,CA 2144,46.9,B96_B98,S
+61,0.0,lower,"Sirayanian,_Mr._Orsen",male,22,0,0,2669,7.2292,B96_B98,C
+62,1.0,upper,"Icard,_Miss._Amelie",female,38,0,0,113572,80.0,B28,S
+63,0.0,upper,"Harris,_Mr._Henry_Birkhardt",male,45,1,0,36973,83.475,C83,S
+64,0.0,lower,"Skoog,_Master._Harald",male,4,3,2,347088,27.9,B96_B98,S
+65,0.0,upper,"Stewart,_Mr._Albert_A",male,29,0,0,PC 17605,27.7208,B96_B98,C
+66,1.0,lower,"Moubarek,_Master._Gerios",male,29,1,1,2661,15.2458,B96_B98,C
+67,1.0,middle,"Nye,_Mrs._(Elizabeth_Ramell)",female,29,0,0,C.A. 29395,10.5,F33,S
+68,0.0,lower,"Crease,_Mr._Ernest_James",male,19,0,0,S.P. 3464,8.1583,B96_B98,S
+69,1.0,lower,"Andersson,_Miss._Erna_Alexandra",female,17,4,2,3101281,7.925,B96_B98,S
+70,0.0,lower,"Kink,_Mr._Vincenz",male,26,2,0,315151,8.6625,B96_B98,S
+71,0.0,middle,"Jenkin,_Mr._Stephen_Curnow",male,32,0,0,C.A. 33111,10.5,B96_B98,S
+72,0.0,lower,"Goodwin,_Miss._Lillian_Amy",female,16,5,2,CA 2144,46.9,B96_B98,S
+73,0.0,middle,"Hood,_Mr._Ambrose_Jr",male,21,0,0,S.O.C. 14879,73.5,B96_B98,S
+74,0.0,lower,"Chronopoulos,_Mr._Apostolos",male,26,1,0,2680,14.4542,B96_B98,C
+75,1.0,lower,"Bing,_Mr._Lee",male,32,0,0,1601,56.4958,B96_B98,S
+76,0.0,lower,"Moen,_Mr._Sigurd_Hansen",male,25,0,0,348123,7.65,F_G73,S
+77,0.0,lower,"Staneff,_Mr._Ivan",male,29,0,0,349208,7.8958,B96_B98,S
+78,0.0,lower,"Moutal,_Mr._Rahamin_Haim",male,29,0,0,374746,8.05,B96_B98,S
+79,1.0,middle,"Caldwell,_Master._Alden_Gates",male,0,0,2,248738,29.0,B96_B98,S
+80,1.0,lower,"Dowdell,_Miss._Elizabeth",female,30,0,0,364516,12.475,B96_B98,S
+81,0.0,lower,"Waelens,_Mr._Achille",male,22,0,0,345767,9.0,B96_B98,S
+82,1.0,lower,"Sheerlinck,_Mr._Jan_Baptist",male,29,0,0,345779,9.5,B96_B98,S
+83,1.0,lower,"McDermott,_Miss._Brigdet_Delia",female,29,0,0,330932,7.7875,B96_B98,Q
+84,0.0,upper,"Carrau,_Mr._Francisco_M",male,28,0,0,113059,47.1,B96_B98,S
+85,1.0,middle,"Ilett,_Miss._Bertha",female,17,0,0,SO/C 14885,10.5,B96_B98,S
+86,1.0,lower,"Backstrom,_Mrs._Karl_Alfred_(Maria_Mathilda_Gustafsson)",female,33,3,0,3101278,15.85,B96_B98,S
+87,0.0,lower,"Ford,_Mr._William_Neal",male,16,1,3,W./C. 6608,34.375,B96_B98,S
+88,0.0,lower,"Slocovski,_Mr._Selman_Francis",male,29,0,0,SOTON/OQ 392086,8.05,B96_B98,S
+89,1.0,upper,"Fortune,_Miss._Mabel_Helen",female,23,3,2,19950,263.0,C23_C25_C27,S
+90,0.0,lower,"Celotti,_Mr._Francesco",male,24,0,0,343275,8.05,B96_B98,S
+91,0.0,lower,"Christmann,_Mr._Emil",male,29,0,0,343276,8.05,B96_B98,S
+92,0.0,lower,"Andreasson,_Mr._Paul_Edvin",male,20,0,0,347466,7.8542,B96_B98,S
+93,0.0,upper,"Chaffee,_Mr._Herbert_Fuller",male,46,1,0,W.E.P. 5734,61.175,E31,S
+94,0.0,lower,"Dean,_Mr._Bertram_Frank",male,26,1,2,C.A. 2315,20.575,B96_B98,S
+95,0.0,lower,"Coxon,_Mr._Daniel",male,59,0,0,364500,7.25,B96_B98,S
+96,0.0,lower,"Shorney,_Mr._Charles_Joseph",male,29,0,0,374910,8.05,B96_B98,S
+97,0.0,upper,"Goldschmidt,_Mr._George_B",male,71,0,0,PC 17754,34.6542,A5,C
+98,1.0,upper,"Greenfield,_Mr._William_Bertram",male,23,0,1,PC 17759,63.3583,D10_D12,C
+99,1.0,middle,"Doling,_Mrs._John_T_(Ada_Julia_Bone)",female,34,0,1,231919,23.0,B96_B98,S
+100,0.0,middle,"Kantor,_Mr._Sinai",male,34,1,0,244367,26.0,B96_B98,S
+101,0.0,lower,"Petranec,_Miss._Matilda",female,28,0,0,349245,7.8958,B96_B98,S
+102,0.0,lower,"Petroff,_Mr._Pastcho_(""Pentcho"")",male,29,0,0,349215,7.8958,B96_B98,S
+103,0.0,upper,"White,_Mr._Richard_Frasar",male,21,0,1,35281,77.2875,D26,S
+104,0.0,lower,"Johansson,_Mr._Gustaf_Joel",male,33,0,0,7540,8.6542,B96_B98,S
+105,0.0,lower,"Gustafsson,_Mr._Anders_Vilhelm",male,37,2,0,3101276,7.925,B96_B98,S
+106,0.0,lower,"Mionoff,_Mr._Stoytcho",male,28,0,0,349207,7.8958,B96_B98,S
+107,1.0,lower,"Salkjelsvik,_Miss._Anna_Kristine",female,21,0,0,343120,7.65,B96_B98,S
+108,1.0,lower,"Moss,_Mr._Albert_Johan",male,29,0,0,312991,7.775,B96_B98,S
+109,0.0,lower,"Rekic,_Mr._Tido",male,38,0,0,349249,7.8958,B96_B98,S
+110,1.0,lower,"Moran,_Miss._Bertha",female,29,1,0,371110,24.15,B96_B98,Q
+111,0.0,upper,"Porter,_Mr._Walter_Chamberlain",male,47,0,0,110465,52.0,C110,S
+112,0.0,lower,"Zabour,_Miss._Hileni",female,14,1,0,2665,14.4542,B96_B98,C
+113,0.0,lower,"Barton,_Mr._David_John",male,22,0,0,324669,8.05,B96_B98,S
+114,0.0,lower,"Jussila,_Miss._Katriina",female,20,1,0,4136,9.825,B96_B98,S
+115,0.0,lower,"Attalah,_Miss._Malake",female,17,0,0,2627,14.4583,B96_B98,C
+116,0.0,lower,"Pekoniemi,_Mr._Edvard",male,21,0,0,STON/O 2. 3101294,7.925,B96_B98,S
+117,0.0,lower,"Connors,_Mr._Patrick",male,70,0,0,370369,7.75,B96_B98,Q
+118,0.0,middle,"Turpin,_Mr._William_John_Robert",male,29,1,0,11668,21.0,B96_B98,S
+119,0.0,upper,"Baxter,_Mr._Quigg_Edmond",male,24,0,1,PC 17558,247.5208,B58_B60,C
+120,0.0,lower,"Andersson,_Miss._Ellis_Anna_Maria",female,2,4,2,347082,31.275,B96_B98,S
+121,0.0,middle,"Hickman,_Mr._Stanley_George",male,21,2,0,S.O.C. 14879,73.5,B96_B98,S
+122,0.0,lower,"Moore,_Mr._Leonard_Charles",male,29,0,0,A4. 54510,8.05,B96_B98,S
+123,0.0,middle,"Nasser,_Mr._Nicholas",male,32,1,0,237736,30.0708,B96_B98,C
+124,1.0,middle,"Webber,_Miss._Susan",female,32,0,0,27267,13.0,E101,S
+125,0.0,upper,"White,_Mr._Percival_Wayland",male,54,0,1,35281,77.2875,D26,S
+126,1.0,lower,"Nicola-Yarred,_Master._Elias",male,12,1,0,2651,11.2417,B96_B98,C
+127,0.0,lower,"McMahon,_Mr._Martin",male,29,0,0,370372,7.75,B96_B98,Q
+128,1.0,lower,"Madsen,_Mr._Fridtjof_Arne",male,24,0,0,C 17369,7.1417,B96_B98,S
+129,1.0,lower,"Peter,_Miss._Anna",female,29,1,1,2668,22.3583,F_E69,C
+130,0.0,lower,"Ekstrom,_Mr._Johan",male,45,0,0,347061,6.975,B96_B98,S
+131,0.0,lower,"Drazenoic,_Mr._Jozef",male,33,0,0,349241,7.8958,B96_B98,C
+132,0.0,lower,"Coelho,_Mr._Domingos_Fernandeo",male,20,0,0,SOTON/O.Q. 3101307,7.05,B96_B98,S
+133,0.0,lower,"Robins,_Mrs._Alexander_A_(Grace_Charity_Laury)",female,47,1,0,A/5. 3337,14.5,B96_B98,S
+134,1.0,middle,"Weisz,_Mrs._Leopold_(Mathilde_Francoise_Pede)",female,29,1,0,228414,26.0,B96_B98,S
+135,0.0,middle,"Sobey,_Mr._Samuel_James_Hayden",male,25,0,0,C.A. 29178,13.0,B96_B98,S
+136,0.0,middle,"Richard,_Mr._Emile",male,23,0,0,SC/PARIS 2133,15.0458,B96_B98,C
+137,1.0,upper,"Newsom,_Miss._Helen_Monypeny",female,19,0,2,11752,26.2833,D47,S
+138,0.0,upper,"Futrelle,_Mr._Jacques_Heath",male,37,1,0,113803,53.1,C123,S
+139,0.0,lower,"Osen,_Mr._Olaf_Elon",male,16,0,0,7534,9.2167,B96_B98,S
+140,0.0,upper,"Giglio,_Mr._Victor",male,24,0,0,PC 17593,79.2,B86,C
+141,0.0,lower,"Boulos,_Mrs._Joseph_(Sultana)",female,29,0,2,2678,15.2458,B96_B98,C
+142,1.0,lower,"Nysten,_Miss._Anna_Sofia",female,22,0,0,347081,7.75,B96_B98,S
+143,1.0,lower,"Hakkarainen,_Mrs._Pekka_Pietari_(Elin_Matilda_Dolck)",female,24,1,0,STON/O2. 3101279,15.85,B96_B98,S
+144,0.0,lower,"Burke,_Mr._Jeremiah",male,19,0,0,365222,6.75,B96_B98,Q
+145,0.0,middle,"Andrew,_Mr._Edgardo_Samuel",male,18,0,0,231945,11.5,B96_B98,S
+146,0.0,middle,"Nicholls,_Mr._Joseph_Charles",male,19,1,1,C.A. 33112,36.75,B96_B98,S
+147,1.0,lower,"Andersson,_Mr._August_Edvard_(""Wennerstrom"")",male,27,0,0,350043,7.7958,B96_B98,S
+148,0.0,lower,"Ford,_Miss._Robina_Maggie_""Ruby""",female,9,2,2,W./C. 6608,34.375,B96_B98,S
+149,0.0,middle,"Navratil,_Mr._Michel_(""Louis_M_Hoffman"")",male,36,0,2,230080,26.0,F2,S
+150,0.0,middle,"Byles,_Rev._Thomas_Roussel_Davids",male,42,0,0,244310,13.0,B96_B98,S
+151,0.0,middle,"Bateman,_Rev._Robert_James",male,51,0,0,S.O.P. 1166,12.525,B96_B98,S
+152,1.0,upper,"Pears,_Mrs._Thomas_(Edith_Wearne)",female,22,1,0,113776,66.6,C2,S
+153,0.0,lower,"Meo,_Mr._Alfonzo",male,55,0,0,A.5. 11206,8.05,B96_B98,S
+154,0.0,lower,"van_Billiard,_Mr._Austin_Blyler",male,40,0,2,A/5. 851,14.5,B96_B98,S
+155,0.0,lower,"Olsen,_Mr._Ole_Martin",male,29,0,0,Fa 265302,7.3125,B96_B98,S
+156,0.0,upper,"Williams,_Mr._Charles_Duane",male,51,0,1,PC 17597,61.3792,B96_B98,C
+157,1.0,lower,"Gilnagh,_Miss._Katherine_""Katie""",female,16,0,0,35851,7.7333,B96_B98,Q
+158,0.0,lower,"Corn,_Mr._Harry",male,30,0,0,SOTON/OQ 392090,8.05,B96_B98,S
+159,0.0,lower,"Smiljanic,_Mr._Mile",male,29,0,0,315037,8.6625,B96_B98,S
+160,0.0,lower,"Sage,_Master._Thomas_Henry",male,29,8,2,CA. 2343,69.55,B96_B98,S
+161,0.0,lower,"Cribb,_Mr._John_Hatfield",male,44,0,1,371362,16.1,B96_B98,S
+162,1.0,middle,"Watt,_Mrs._James_(Elizabeth_""Bessie""_Inglis_Milne)",female,40,0,0,C.A. 33595,15.75,B96_B98,S
+163,0.0,lower,"Bengtsson,_Mr._John_Viktor",male,26,0,0,347068,7.775,B96_B98,S
+164,0.0,lower,"Calic,_Mr._Jovo",male,17,0,0,315093,8.6625,B96_B98,S
+165,0.0,lower,"Panula,_Master._Eino_Viljami",male,1,4,1,3101295,39.6875,B96_B98,S
+166,1.0,lower,"Goldsmith,_Master._Frank_John_William_""Frankie""",male,9,0,2,363291,20.525,B96_B98,S
+167,1.0,upper,"Chibnall,_Mrs._(Edith_Martha_Bowerman)",female,29,0,1,113505,55.0,E33,S
+168,0.0,lower,"Skoog,_Mrs._William_(Anna_Bernhardina_Karlsson)",female,45,1,4,347088,27.9,B96_B98,S
+169,0.0,upper,"Baumann,_Mr._John_D",male,29,0,0,PC 17318,25.925,B96_B98,S
+170,0.0,lower,"Ling,_Mr._Lee",male,28,0,0,1601,56.4958,B96_B98,S
+171,0.0,upper,"Van_der_hoef,_Mr._Wyckoff",male,61,0,0,111240,33.5,B19,S
+172,0.0,lower,"Rice,_Master._Arthur",male,4,4,1,382652,29.125,B96_B98,Q
+173,1.0,lower,"Johnson,_Miss._Eleanor_Ileen",female,1,1,1,347742,11.1333,B96_B98,S
+174,0.0,lower,"Sivola,_Mr._Antti_Wilhelm",male,21,0,0,STON/O 2. 3101280,7.925,B96_B98,S
+175,0.0,upper,"Smith,_Mr._James_Clinch",male,56,0,0,17764,30.6958,A7,C
+176,0.0,lower,"Klasen,_Mr._Klas_Albin",male,18,1,1,350404,7.8542,B96_B98,S
+177,0.0,lower,"Lefebre,_Master._Henry_Forbes",male,29,3,1,4133,25.4667,B96_B98,S
+178,0.0,upper,"Isham,_Miss._Ann_Elizabeth",female,50,0,0,PC 17595,28.7125,C49,C
+179,0.0,middle,"Hale,_Mr._Reginald",male,30,0,0,250653,13.0,B96_B98,S
+180,0.0,lower,"Leonard,_Mr._Lionel",male,36,0,0,LINE,0.0,B96_B98,S
+181,0.0,lower,"Sage,_Miss._Constance_Gladys",female,29,8,2,CA. 2343,69.55,B96_B98,S
+182,0.0,middle,"Pernot,_Mr._Rene",male,29,0,0,SC/PARIS 2131,15.05,B96_B98,C
+183,0.0,lower,"Asplund,_Master._Clarence_Gustaf_Hugo",male,9,4,2,347077,31.3875,B96_B98,S
+184,1.0,middle,"Becker,_Master._Richard_F",male,1,2,1,230136,39.0,F4,S
+185,1.0,lower,"Kink-Heilmann,_Miss._Luise_Gretchen",female,4,0,2,315153,22.025,B96_B98,S
+186,0.0,upper,"Rood,_Mr._Hugh_Roscoe",male,29,0,0,113767,50.0,A32,S
+187,1.0,lower,"O'Brien,_Mrs._Thomas_(Johanna_""Hannah""_Godfrey)",female,29,1,0,370365,15.5,B96_B98,Q
+188,1.0,upper,"Romaine,_Mr._Charles_Hallace_(""Mr_C_Rolmane"")",male,45,0,0,111428,26.55,B96_B98,S
+189,0.0,lower,"Bourke,_Mr._John",male,40,1,1,364849,15.5,B96_B98,Q
+190,0.0,lower,"Turcin,_Mr._Stjepan",male,36,0,0,349247,7.8958,B96_B98,S
+191,1.0,middle,"Pinsky,_Mrs._(Rosa)",female,32,0,0,234604,13.0,B96_B98,S
+192,0.0,middle,"Carbines,_Mr._William",male,19,0,0,28424,13.0,B96_B98,S
+193,1.0,lower,"Andersen-Jensen,_Miss._Carla_Christine_Nielsine",female,19,1,0,350046,7.8542,B96_B98,S
+194,1.0,middle,"Navratil,_Master._Michel_M",male,3,1,1,230080,26.0,F2,S
+195,1.0,upper,"Brown,_Mrs._James_Joseph_(Margaret_Tobin)",female,44,0,0,PC 17610,27.7208,B4,C
+196,1.0,upper,"Lurette,_Miss._Elise",female,58,0,0,PC 17569,146.5208,B80,C
+197,0.0,lower,"Mernagh,_Mr._Robert",male,29,0,0,368703,7.75,B96_B98,Q
+198,0.0,lower,"Olsen,_Mr._Karl_Siegwart_Andreas",male,42,0,1,4579,8.4042,B96_B98,S
+199,1.0,lower,"Madigan,_Miss._Margaret_""Maggie""",female,29,0,0,370370,7.75,B96_B98,Q
+200,0.0,middle,"Yrois,_Miss._Henriette_(""Mrs_Harbeck"")",female,24,0,0,248747,13.0,B96_B98,S
+201,0.0,lower,"Vande_Walle,_Mr._Nestor_Cyriel",male,28,0,0,345770,9.5,B96_B98,S
+202,0.0,lower,"Sage,_Mr._Frederick",male,29,8,2,CA. 2343,69.55,B96_B98,S
+203,0.0,lower,"Johanson,_Mr._Jakob_Alfred",male,34,0,0,3101264,6.4958,B96_B98,S
+204,0.0,lower,"Youseff,_Mr._Gerious",male,45,0,0,2628,7.225,B96_B98,C
+205,1.0,lower,"Cohen,_Mr._Gurshon_""Gus""",male,18,0,0,A/5 3540,8.05,B96_B98,S
+206,0.0,lower,"Strom,_Miss._Telma_Matilda",female,2,0,1,347054,10.4625,G6,S
+207,0.0,lower,"Backstrom,_Mr._Karl_Alfred",male,32,1,0,3101278,15.85,B96_B98,S
+208,1.0,lower,"Albimona,_Mr._Nassef_Cassem",male,26,0,0,2699,18.7875,B96_B98,C
+209,1.0,lower,"Carr,_Miss._Helen_""Ellen""",female,16,0,0,367231,7.75,B96_B98,Q
+210,1.0,upper,"Blank,_Mr._Henry",male,40,0,0,112277,31.0,A31,C
+211,0.0,lower,"Ali,_Mr._Ahmed",male,24,0,0,SOTON/O.Q. 3101311,7.05,B96_B98,S
+212,1.0,middle,"Cameron,_Miss._Clear_Annie",female,35,0,0,F.C.C. 13528,21.0,B96_B98,S
+213,0.0,lower,"Perkin,_Mr._John_Henry",male,22,0,0,A/5 21174,7.25,B96_B98,S
+214,0.0,middle,"Givard,_Mr._Hans_Kristensen",male,30,0,0,250646,13.0,B96_B98,S
+215,0.0,lower,"Kiernan,_Mr._Philip",male,29,1,0,367229,7.75,B96_B98,Q
+216,1.0,upper,"Newell,_Miss._Madeleine",female,31,1,0,35273,113.275,D36,C
+217,1.0,lower,"Honkanen,_Miss._Eliina",female,27,0,0,STON/O2. 3101283,7.925,B96_B98,S
+218,0.0,middle,"Jacobsohn,_Mr._Sidney_Samuel",male,42,1,0,243847,27.0,B96_B98,S
+219,1.0,upper,"Bazzani,_Miss._Albina",female,32,0,0,11813,76.2917,D15,C
+220,0.0,middle,"Harris,_Mr._Walter",male,30,0,0,W/C 14208,10.5,B96_B98,S
+221,1.0,lower,"Sunderland,_Mr._Victor_Francis",male,16,0,0,SOTON/OQ 392089,8.05,B96_B98,S
+222,0.0,middle,"Bracken,_Mr._James_H",male,27,0,0,220367,13.0,B96_B98,S
+223,0.0,lower,"Green,_Mr._George_Henry",male,51,0,0,21440,8.05,B96_B98,S
+224,0.0,lower,"Nenkoff,_Mr._Christo",male,29,0,0,349234,7.8958,B96_B98,S
+225,1.0,upper,"Hoyt,_Mr._Frederick_Maxfield",male,38,1,0,19943,90.0,C93,S
+226,0.0,lower,"Berglund,_Mr._Karl_Ivar_Sven",male,22,0,0,PP 4348,9.35,B96_B98,S
+227,1.0,middle,"Mellors,_Mr._William_John",male,19,0,0,SW/PP 751,10.5,B96_B98,S
+228,0.0,lower,"Lovell,_Mr._John_Hall_(""Henry"")",male,20,0,0,A/5 21173,7.25,B96_B98,S
+229,0.0,middle,"Fahlstrom,_Mr._Arne_Jonas",male,18,0,0,236171,13.0,B96_B98,S
+230,0.0,lower,"Lefebre,_Miss._Mathilde",female,29,3,1,4133,25.4667,B96_B98,S
+231,1.0,upper,"Harris,_Mrs._Henry_Birkhardt_(Irene_Wallach)",female,35,1,0,36973,83.475,C83,S
+232,0.0,lower,"Larsson,_Mr._Bengt_Edvin",male,29,0,0,347067,7.775,B96_B98,S
+233,0.0,middle,"Sjostedt,_Mr._Ernst_Adolf",male,59,0,0,237442,13.5,B96_B98,S
+234,1.0,lower,"Asplund,_Miss._Lillian_Gertrud",female,5,4,2,347077,31.3875,B96_B98,S
+235,0.0,middle,"Leyson,_Mr._Robert_William_Norman",male,24,0,0,C.A. 29566,10.5,B96_B98,S
+236,0.0,lower,"Harknett,_Miss._Alice_Phoebe",female,29,0,0,W./C. 6609,7.55,B96_B98,S
+237,0.0,middle,"Hold,_Mr._Stephen",male,44,1,0,26707,26.0,B96_B98,S
+238,1.0,middle,"Collyer,_Miss._Marjorie_""Lottie""",female,8,0,2,C.A. 31921,26.25,B96_B98,S
+239,0.0,middle,"Pengelly,_Mr._Frederick_William",male,19,0,0,28665,10.5,B96_B98,S
+240,0.0,middle,"Hunt,_Mr._George_Henry",male,33,0,0,SCO/W 1585,12.275,B96_B98,S
+241,0.0,lower,"Zabour,_Miss._Thamine",female,29,1,0,2665,14.4542,B96_B98,C
+242,1.0,lower,"Murphy,_Miss._Katherine_""Kate""",female,29,1,0,367230,15.5,B96_B98,Q
+243,0.0,middle,"Coleridge,_Mr._Reginald_Charles",male,29,0,0,W./C. 14263,10.5,B96_B98,S
+244,0.0,lower,"Maenpaa,_Mr._Matti_Alexanteri",male,22,0,0,STON/O 2. 3101275,7.125,B96_B98,S
+245,0.0,lower,"Attalah,_Mr._Sleiman",male,30,0,0,2694,7.225,B96_B98,C
+246,0.0,upper,"Minahan,_Dr._William_Edward",male,44,2,0,19928,90.0,C78,Q
+247,0.0,lower,"Lindahl,_Miss._Agda_Thorilda_Viktoria",female,25,0,0,347071,7.775,B96_B98,S
+248,1.0,middle,"Hamalainen,_Mrs._William_(Anna)",female,24,0,2,250649,14.5,B96_B98,S
+249,1.0,upper,"Beckwith,_Mr._Richard_Leonard",male,37,1,1,11751,52.5542,D35,S
+250,0.0,middle,"Carter,_Rev._Ernest_Courtenay",male,54,1,0,244252,26.0,B96_B98,S
+251,0.0,lower,"Reed,_Mr._James_George",male,29,0,0,362316,7.25,B96_B98,S
+252,0.0,lower,"Strom,_Mrs._Wilhelm_(Elna_Matilda_Persson)",female,29,1,1,347054,10.4625,G6,S
+253,0.0,upper,"Stead,_Mr._William_Thomas",male,62,0,0,113514,26.55,C87,S
+254,0.0,lower,"Lobb,_Mr._William_Arthur",male,30,1,0,A/5. 3336,16.1,B96_B98,S
+255,0.0,lower,"Rosblom,_Mrs._Viktor_(Helena_Wilhelmina)",female,41,0,2,370129,20.2125,B96_B98,S
+256,1.0,lower,"Touma,_Mrs._Darwis_(Hanne_Youssef_Razi)",female,29,0,2,2650,15.2458,B96_B98,C
+257,1.0,upper,"Thorne,_Mrs._Gertrude_Maybelle",female,29,0,0,PC 17585,79.2,B96_B98,C
+258,1.0,upper,"Cherry,_Miss._Gladys",female,30,0,0,110152,86.5,B77,S
+259,1.0,upper,"Ward,_Miss._Anna",female,35,0,0,PC 17755,512.3292,B96_B98,C
+260,1.0,middle,"Parrish,_Mrs._(Lutie_Davis)",female,50,0,1,230433,26.0,B96_B98,S
+261,0.0,lower,"Smith,_Mr._Thomas",male,29,0,0,384461,7.75,B96_B98,Q
+262,1.0,lower,"Asplund,_Master._Edvin_Rojj_Felix",male,3,4,2,347077,31.3875,B96_B98,S
+263,0.0,upper,"Taussig,_Mr._Emil",male,52,1,1,110413,79.65,E67,S
+264,0.0,upper,"Harrison,_Mr._William",male,40,0,0,112059,0.0,B94,S
+265,0.0,lower,"Henry,_Miss._Delia",female,29,0,0,382649,7.75,B96_B98,Q
+266,0.0,middle,"Reeves,_Mr._David",male,36,0,0,C.A. 17248,10.5,B96_B98,S
+267,0.0,lower,"Panula,_Mr._Ernesti_Arvid",male,16,4,1,3101295,39.6875,B96_B98,S
+268,1.0,lower,"Persson,_Mr._Ernst_Ulrik",male,25,1,0,347083,7.775,B96_B98,S
+269,1.0,upper,"Graham,_Mrs._William_Thompson_(Edith_Junkins)",female,58,0,1,PC 17582,153.4625,C125,S
+270,1.0,upper,"Bissette,_Miss._Amelia",female,35,0,0,PC 17760,135.6333,C99,S
+271,0.0,upper,"Cairns,_Mr._Alexander",male,29,0,0,113798,31.0,B96_B98,S
+272,1.0,lower,"Tornquist,_Mr._William_Henry",male,25,0,0,LINE,0.0,B96_B98,S
+273,1.0,middle,"Mellinger,_Mrs._(Elizabeth_Anne_Maidment)",female,41,0,1,250644,19.5,B96_B98,S
+274,0.0,upper,"Natsch,_Mr._Charles_H",male,37,0,1,PC 17596,29.7,C118,C
+275,1.0,lower,"Healy,_Miss._Hanora_""Nora""",female,29,0,0,370375,7.75,B96_B98,Q
+276,1.0,upper,"Andrews,_Miss._Kornelia_Theodosia",female,63,1,0,13502,77.9583,D7,S
+277,0.0,lower,"Lindblom,_Miss._Augusta_Charlotta",female,45,0,0,347073,7.75,B96_B98,S
+278,0.0,middle,"Parkes,_Mr._Francis_""Frank""",male,29,0,0,239853,0.0,B96_B98,S
+279,0.0,lower,"Rice,_Master._Eric",male,7,4,1,382652,29.125,B96_B98,Q
+280,1.0,lower,"Abbott,_Mrs._Stanton_(Rosa_Hunt)",female,35,1,1,C.A. 2673,20.25,B96_B98,S
+281,0.0,lower,"Duane,_Mr._Frank",male,65,0,0,336439,7.75,B96_B98,Q
+282,0.0,lower,"Olsson,_Mr._Nils_Johan_Goransson",male,28,0,0,347464,7.8542,B96_B98,S
+283,0.0,lower,"de_Pelsmaeker,_Mr._Alfons",male,16,0,0,345778,9.5,B96_B98,S
+284,1.0,lower,"Dorking,_Mr._Edward_Arthur",male,19,0,0,A/5. 10482,8.05,B96_B98,S
+285,0.0,upper,"Smith,_Mr._Richard_William",male,29,0,0,113056,26.0,A19,S
+286,0.0,lower,"Stankovic,_Mr._Ivan",male,33,0,0,349239,8.6625,B96_B98,C
+287,1.0,lower,"de_Mulder,_Mr._Theodore",male,30,0,0,345774,9.5,B96_B98,S
+288,0.0,lower,"Naidenoff,_Mr._Penko",male,22,0,0,349206,7.8958,B96_B98,S
+289,1.0,middle,"Hosono,_Mr._Masabumi",male,42,0,0,237798,13.0,B96_B98,S
+290,1.0,lower,"Connolly,_Miss._Kate",female,22,0,0,370373,7.75,B96_B98,Q
+291,1.0,upper,"Barber,_Miss._Ellen_""Nellie""",female,26,0,0,19877,78.85,B96_B98,S
+292,1.0,upper,"Bishop,_Mrs._Dickinson_H_(Helen_Walton)",female,19,1,0,11967,91.0792,B49,C
+293,0.0,middle,"Levy,_Mr._Rene_Jacques",male,36,0,0,SC/Paris 2163,12.875,D,C
+294,0.0,lower,"Haas,_Miss._Aloisia",female,24,0,0,349236,8.85,B96_B98,S
+295,0.0,lower,"Mineff,_Mr._Ivan",male,24,0,0,349233,7.8958,B96_B98,S
+296,0.0,upper,"Lewy,_Mr._Ervin_G",male,29,0,0,PC 17612,27.7208,B96_B98,C
+297,0.0,lower,"Hanna,_Mr._Mansour",male,23,0,0,2693,7.2292,B96_B98,C
+298,0.0,upper,"Allison,_Miss._Helen_Loraine",female,2,1,2,113781,151.55,C22_C26,S
+299,1.0,upper,"Saalfeld,_Mr._Adolphe",male,29,0,0,19988,30.5,C106,S
+300,1.0,upper,"Baxter,_Mrs._James_(Helene_DeLaudeniere_Chaput)",female,50,0,1,PC 17558,247.5208,B58_B60,C
+301,1.0,lower,"Kelly,_Miss._Anna_Katherine_""Annie_Kate""",female,29,0,0,9234,7.75,B96_B98,Q
+302,1.0,lower,"McCoy,_Mr._Bernard",male,29,2,0,367226,23.25,B96_B98,Q
+303,0.0,lower,"Johnson,_Mr._William_Cahoone_Jr",male,19,0,0,LINE,0.0,B96_B98,S
+304,1.0,middle,"Keane,_Miss._Nora_A",female,29,0,0,226593,12.35,E101,Q
+305,0.0,lower,"Williams,_Mr._Howard_Hugh_""Harry""",male,29,0,0,A/5 2466,8.05,B96_B98,S
+306,1.0,upper,"Allison,_Master._Hudson_Trevor",male,0,1,2,113781,151.55,C22_C26,S
+307,1.0,upper,"Fleming,_Miss._Margaret",female,29,0,0,17421,110.8833,B96_B98,C
+308,1.0,upper,"Penasco_y_Castellana,_Mrs._Victor_de_Satode_(Maria_Josefa_Perez_de_Soto_y_Vallejo)",female,17,1,0,PC 17758,108.9,C65,C
+309,0.0,middle,"Abelson,_Mr._Samuel",male,30,1,0,P/PP 3381,24.0,B96_B98,C
+310,1.0,upper,"Francatelli,_Miss._Laura_Mabel",female,30,0,0,PC 17485,56.9292,E36,C
+311,1.0,upper,"Hays,_Miss._Margaret_Bechstein",female,24,0,0,11767,83.1583,C54,C
+312,1.0,upper,"Ryerson,_Miss._Emily_Borie",female,18,2,2,PC 17608,262.375,B57_B59_B63_B66,C
+313,0.0,middle,"Lahtinen,_Mrs._William_(Anna_Sylfven)",female,26,1,1,250651,26.0,B96_B98,S
+314,0.0,lower,"Hendekovic,_Mr._Ignjac",male,28,0,0,349243,7.8958,B96_B98,S
+315,0.0,middle,"Hart,_Mr._Benjamin",male,43,1,1,F.C.C. 13529,26.25,B96_B98,S
+316,1.0,lower,"Nilsson,_Miss._Helmina_Josefina",female,26,0,0,347470,7.8542,B96_B98,S
+317,1.0,middle,"Kantor,_Mrs._Sinai_(Miriam_Sternin)",female,24,1,0,244367,26.0,B96_B98,S
+318,0.0,middle,"Moraweck,_Dr._Ernest",male,54,0,0,29011,14.0,B96_B98,S
+319,1.0,upper,"Wick,_Miss._Mary_Natalie",female,31,0,2,36928,164.8667,C7,S
+320,1.0,upper,"Spedden,_Mrs._Frederic_Oakley_(Margaretta_Corning_Stone)",female,40,1,1,16966,134.5,E34,C
+321,0.0,lower,"Dennis,_Mr._Samuel",male,22,0,0,A/5 21172,7.25,B96_B98,S
+322,0.0,lower,"Danoff,_Mr._Yoto",male,27,0,0,349219,7.8958,B96_B98,S
+323,1.0,middle,"Slayter,_Miss._Hilda_Mary",female,30,0,0,234818,12.35,B96_B98,Q
+324,1.0,middle,"Caldwell,_Mrs._Albert_Francis_(Sylvia_Mae_Harbaugh)",female,22,1,1,248738,29.0,B96_B98,S
+325,0.0,lower,"Sage,_Mr._George_John_Jr",male,29,8,2,CA. 2343,69.55,B96_B98,S
+326,1.0,upper,"Young,_Miss._Marie_Grice",female,36,0,0,PC 17760,135.6333,C32,C
+327,0.0,lower,"Nysveen,_Mr._Johan_Hansen",male,61,0,0,345364,6.2375,B96_B98,S
+328,1.0,middle,"Ball,_Mrs._(Ada_E_Hall)",female,36,0,0,28551,13.0,D,S
+329,1.0,lower,"Goldsmith,_Mrs._Frank_John_(Emily_Alice_Brown)",female,31,1,1,363291,20.525,B96_B98,S
+330,1.0,upper,"Hippach,_Miss._Jean_Gertrude",female,16,0,1,111361,57.9792,B18,C
+331,1.0,lower,"McCoy,_Miss._Agnes",female,29,2,0,367226,23.25,B96_B98,Q
+332,0.0,upper,"Partner,_Mr._Austen",male,45,0,0,113043,28.5,C124,S
+333,0.0,upper,"Graham,_Mr._George_Edward",male,38,0,1,PC 17582,153.4625,C91,S
+334,0.0,lower,"Vander_Planke,_Mr._Leo_Edmondus",male,16,2,0,345764,18.0,B96_B98,S
+335,1.0,upper,"Frauenthal,_Mrs._Henry_William_(Clara_Heinsheimer)",female,29,1,0,PC 17611,133.65,B96_B98,S
+336,0.0,lower,"Denkoff,_Mr._Mitto",male,29,0,0,349225,7.8958,B96_B98,S
+337,0.0,upper,"Pears,_Mr._Thomas_Clinton",male,29,1,0,113776,66.6,C2,S
+338,1.0,upper,"Burns,_Miss._Elizabeth_Margaret",female,41,0,0,16966,134.5,E40,C
+339,1.0,lower,"Dahl,_Mr._Karl_Edwart",male,45,0,0,7598,8.05,B96_B98,S
+340,0.0,upper,"Blackwell,_Mr._Stephen_Weart",male,45,0,0,113784,35.5,T,S
+341,1.0,middle,"Navratil,_Master._Edmond_Roger",male,2,1,1,230080,26.0,F2,S
+342,1.0,upper,"Fortune,_Miss._Alice_Elizabeth",female,24,3,2,19950,263.0,C23_C25_C27,S
+343,0.0,middle,"Collander,_Mr._Erik_Gustaf",male,28,0,0,248740,13.0,B96_B98,S
+344,0.0,middle,"Sedgwick,_Mr._Charles_Frederick_Waddington",male,25,0,0,244361,13.0,B96_B98,S
+345,0.0,middle,"Fox,_Mr._Stanley_Hubert",male,36,0,0,229236,13.0,B96_B98,S
+346,1.0,middle,"Brown,_Miss._Amelia_""Mildred""",female,24,0,0,248733,13.0,F33,S
+347,1.0,middle,"Smith,_Miss._Marion_Elsie",female,40,0,0,31418,13.0,B96_B98,S
+348,1.0,lower,"Davison,_Mrs._Thomas_Henry_(Mary_E_Finck)",female,29,1,0,386525,16.1,B96_B98,S
+349,1.0,lower,"Coutts,_Master._William_Loch_""William""",male,3,1,1,C.A. 37671,15.9,B96_B98,S
+350,0.0,lower,"Dimic,_Mr._Jovan",male,42,0,0,315088,8.6625,B96_B98,S
+351,0.0,lower,"Odahl,_Mr._Nils_Martin",male,23,0,0,7267,9.225,B96_B98,S
+352,0.0,upper,"Williams-Lambert,_Mr._Fletcher_Fellows",male,29,0,0,113510,35.0,C128,S
+353,0.0,lower,"Elias,_Mr._Tannous",male,15,1,1,2695,7.2292,B96_B98,C
+354,0.0,lower,"Arnold-Franchi,_Mr._Josef",male,25,1,0,349237,17.8,B96_B98,S
+355,0.0,lower,"Yousif,_Mr._Wazli",male,29,0,0,2647,7.225,B96_B98,C
+356,0.0,lower,"Vanden_Steen,_Mr._Leo_Peter",male,28,0,0,345783,9.5,B96_B98,S
+357,1.0,upper,"Bowerman,_Miss._Elsie_Edith",female,22,0,1,113505,55.0,E33,S
+358,0.0,middle,"Funk,_Miss._Annie_Clemmer",female,38,0,0,237671,13.0,B96_B98,S
+359,1.0,lower,"McGovern,_Miss._Mary",female,29,0,0,330931,7.8792,B96_B98,Q
+360,1.0,lower,"Mockler,_Miss._Helen_Mary_""Ellie""",female,29,0,0,330980,7.8792,B96_B98,Q
+361,0.0,lower,"Skoog,_Mr._Wilhelm",male,40,1,4,347088,27.9,B96_B98,S
+362,0.0,middle,"del_Carlo,_Mr._Sebastiano",male,29,1,0,SC/PARIS 2167,27.7208,B96_B98,C
+363,0.0,lower,"Barbara,_Mrs._(Catherine_David)",female,45,0,1,2691,14.4542,B96_B98,C
+364,0.0,lower,"Asim,_Mr._Adola",male,35,0,0,SOTON/O.Q. 3101310,7.05,B96_B98,S
+365,0.0,lower,"O'Brien,_Mr._Thomas",male,29,1,0,370365,15.5,B96_B98,Q
+366,0.0,lower,"Adahl,_Mr._Mauritz_Nils_Martin",male,30,0,0,C 7076,7.25,B96_B98,S
+367,1.0,upper,"Warren,_Mrs._Frank_Manley_(Anna_Sophia_Atkinson)",female,60,1,0,110813,75.25,D37,C
+368,1.0,lower,"Moussa,_Mrs._(Mantoura_Boulos)",female,29,0,0,2626,7.2292,B96_B98,C
+369,1.0,lower,"Jermyn,_Miss._Annie",female,29,0,0,14313,7.75,B96_B98,Q
+370,1.0,upper,"Aubart,_Mme._Leontine_Pauline",female,24,0,0,PC 17477,69.3,B35,C
+371,1.0,upper,"Harder,_Mr._George_Achilles",male,25,1,0,11765,55.4417,E50,C
+372,0.0,lower,"Wiklund,_Mr._Jakob_Alfred",male,18,1,0,3101267,6.4958,B96_B98,S
+373,0.0,lower,"Beavan,_Mr._William_Thomas",male,19,0,0,323951,8.05,B96_B98,S
+374,0.0,upper,"Ringhini,_Mr._Sante",male,22,0,0,PC 17760,135.6333,B96_B98,C
+375,0.0,lower,"Palsson,_Miss._Stina_Viola",female,3,3,1,349909,21.075,B96_B98,S
+376,1.0,upper,"Meyer,_Mrs._Edgar_Joseph_(Leila_Saks)",female,29,1,0,PC 17604,82.1708,B96_B98,C
+377,1.0,lower,"Landergren,_Miss._Aurora_Adelia",female,22,0,0,C 7077,7.25,B96_B98,S
+378,0.0,upper,"Widener,_Mr._Harry_Elkins",male,27,0,2,113503,211.5,C82,C
+379,0.0,lower,"Betros,_Mr._Tannous",male,20,0,0,2648,4.0125,B96_B98,C
+380,0.0,lower,"Gustafsson,_Mr._Karl_Gideon",male,19,0,0,347069,7.775,B96_B98,S
+381,1.0,upper,"Bidois,_Miss._Rosalie",female,42,0,0,PC 17757,227.525,B96_B98,C
+382,1.0,lower,"Nakid,_Miss._Maria_(""Mary"")",female,1,0,2,2653,15.7417,B96_B98,C
+383,0.0,lower,"Tikkanen,_Mr._Juho",male,32,0,0,STON/O 2. 3101293,7.925,B96_B98,S
+384,1.0,upper,"Holverson,_Mrs._Alexander_Oskar_(Mary_Aline_Towner)",female,35,1,0,113789,52.0,B96_B98,S
+385,0.0,lower,"Plotcharsky,_Mr._Vasil",male,29,0,0,349227,7.8958,B96_B98,S
+386,0.0,middle,"Davies,_Mr._Charles_Henry",male,18,0,0,S.O.C. 14879,73.5,B96_B98,S
+387,0.0,lower,"Goodwin,_Master._Sidney_Leonard",male,1,5,2,CA 2144,46.9,B96_B98,S
+388,1.0,middle,"Buss,_Miss._Kate",female,36,0,0,27849,13.0,B96_B98,S
+389,0.0,lower,"Sadlier,_Mr._Matthew",male,29,0,0,367655,7.7292,B96_B98,Q
+390,1.0,middle,"Lehmann,_Miss._Bertha",female,17,0,0,SC 1748,12.0,B96_B98,C
+391,1.0,upper,"Carter,_Mr._William_Ernest",male,36,1,2,113760,120.0,B96_B98,S
+392,1.0,lower,"Jansson,_Mr._Carl_Olof",male,21,0,0,350034,7.7958,B96_B98,S
+393,0.0,lower,"Gustafsson,_Mr._Johan_Birger",male,28,2,0,3101277,7.925,B96_B98,S
+394,1.0,upper,"Newell,_Miss._Marjorie",female,23,1,0,35273,113.275,D36,C
+395,1.0,lower,"Sandstrom,_Mrs._Hjalmar_(Agnes_Charlotta_Bengtsson)",female,24,0,2,PP 9549,16.7,G6,S
+396,0.0,lower,"Johansson,_Mr._Erik",male,22,0,0,350052,7.7958,B96_B98,S
+397,0.0,lower,"Olsson,_Miss._Elina",female,31,0,0,350407,7.8542,B96_B98,S
+398,0.0,middle,"McKane,_Mr._Peter_David",male,46,0,0,28403,26.0,B96_B98,S
+399,0.0,middle,"Pain,_Dr._Alfred",male,23,0,0,244278,10.5,B96_B98,S
+400,1.0,middle,"Trout,_Mrs._William_H_(Jessie_L)",female,28,0,0,240929,12.65,B96_B98,S
+401,1.0,lower,"Niskanen,_Mr._Juha",male,39,0,0,STON/O 2. 3101289,7.925,B96_B98,S
+402,0.0,lower,"Adams,_Mr._John",male,26,0,0,341826,8.05,B96_B98,S
+403,0.0,lower,"Jussila,_Miss._Mari_Aina",female,21,1,0,4137,9.825,B96_B98,S
+404,0.0,lower,"Hakkarainen,_Mr._Pekka_Pietari",male,28,1,0,STON/O2. 3101279,15.85,B96_B98,S
+405,0.0,lower,"Oreskovic,_Miss._Marija",female,20,0,0,315096,8.6625,B96_B98,S
+406,0.0,middle,"Gale,_Mr._Shadrach",male,34,1,0,28664,21.0,B96_B98,S
+407,0.0,lower,"Widegren,_Mr._Carl/Charles_Peter",male,51,0,0,347064,7.75,B96_B98,S
+408,1.0,middle,"Richards,_Master._William_Rowe",male,3,1,1,29106,18.75,B96_B98,S
+409,0.0,lower,"Birkeland,_Mr._Hans_Martin_Monsen",male,21,0,0,312992,7.775,B96_B98,S
+410,0.0,lower,"Lefebre,_Miss._Ida",female,29,3,1,4133,25.4667,B96_B98,S
+411,0.0,lower,"Sdycoff,_Mr._Todor",male,29,0,0,349222,7.8958,B96_B98,S
+412,0.0,lower,"Hart,_Mr._Henry",male,29,0,0,394140,6.8583,B96_B98,Q
+413,1.0,upper,"Minahan,_Miss._Daisy_E",female,33,1,0,19928,90.0,C78,Q
+414,0.0,middle,"Cunningham,_Mr._Alfred_Fleming",male,29,0,0,239853,0.0,B96_B98,S
+415,1.0,lower,"Sundman,_Mr._Johan_Julian",male,44,0,0,STON/O 2. 3101269,7.925,B96_B98,S
+416,0.0,lower,"Meek,_Mrs._Thomas_(Annie_Louise_Rowley)",female,29,0,0,343095,8.05,B96_B98,S
+417,1.0,middle,"Drew,_Mrs._James_Vivian_(Lulu_Thorne_Christian)",female,34,1,1,28220,32.5,B96_B98,S
+418,1.0,middle,"Silven,_Miss._Lyyli_Karoliina",female,18,0,2,250652,13.0,B96_B98,S
+419,0.0,middle,"Matthews,_Mr._William_John",male,30,0,0,28228,13.0,B96_B98,S
+420,0.0,lower,"Van_Impe,_Miss._Catharina",female,10,0,2,345773,24.15,B96_B98,S
+421,0.0,lower,"Gheorgheff,_Mr._Stanio",male,29,0,0,349254,7.8958,B96_B98,C
+422,0.0,lower,"Charters,_Mr._David",male,21,0,0,A/5. 13032,7.7333,B96_B98,Q
+423,0.0,lower,"Zimmerman,_Mr._Leo",male,29,0,0,315082,7.875,B96_B98,S
+424,0.0,lower,"Danbom,_Mrs._Ernst_Gilbert_(Anna_Sigrid_Maria_Brogren)",female,28,1,1,347080,14.4,B96_B98,S
+425,0.0,lower,"Rosblom,_Mr._Viktor_Richard",male,18,1,1,370129,20.2125,B96_B98,S
+426,0.0,lower,"Wiseman,_Mr._Phillippe",male,29,0,0,A/4. 34244,7.25,B96_B98,S
+427,1.0,middle,"Clarke,_Mrs._Charles_V_(Ada_Maria_Winfield)",female,28,1,0,2003,26.0,B96_B98,S
+428,1.0,middle,"Phillips,_Miss._Kate_Florence_(""Mrs_Kate_Louise_Phillips_Marshall"")",female,19,0,0,250655,26.0,B96_B98,S
+429,0.0,lower,"Flynn,_Mr._James",male,29,0,0,364851,7.75,B96_B98,Q
+430,1.0,lower,"Pickard,_Mr._Berk_(Berk_Trembisky)",male,32,0,0,SOTON/O.Q. 392078,8.05,E10,S
+431,1.0,upper,"Bjornstrom-Steffansson,_Mr._Mauritz_Hakan",male,28,0,0,110564,26.55,C52,S
+432,1.0,lower,"Thorneycroft,_Mrs._Percival_(Florence_Kate_White)",female,29,1,0,376564,16.1,B96_B98,S
+433,1.0,middle,"Louch,_Mrs._Charles_Alexander_(Alice_Adelaide_Slow)",female,42,1,0,SC/AH 3085,26.0,B96_B98,S
+434,0.0,lower,"Kallio,_Mr._Nikolai_Erland",male,17,0,0,STON/O 2. 3101274,7.125,B96_B98,S
+435,0.0,upper,"Silvey,_Mr._William_Baird",male,50,1,0,13507,55.9,E44,S
+436,1.0,upper,"Carter,_Miss._Lucile_Polk",female,14,1,2,113760,120.0,B96_B98,S
+437,0.0,lower,"Ford,_Miss._Doolina_Margaret_""Daisy""",female,21,2,2,W./C. 6608,34.375,B96_B98,S
+438,1.0,middle,"Richards,_Mrs._Sidney_(Emily_Hocking)",female,24,2,3,29106,18.75,B96_B98,S
+439,0.0,upper,"Fortune,_Mr._Mark",male,64,1,4,19950,263.0,C23_C25_C27,S
+440,0.0,middle,"Kvillner,_Mr._Johan_Henrik_Johannesson",male,31,0,0,C.A. 18723,10.5,B96_B98,S
+441,1.0,middle,"Hart,_Mrs._Benjamin_(Esther_Ada_Bloomfield)",female,45,1,1,F.C.C. 13529,26.25,B96_B98,S
+442,0.0,lower,"Hampe,_Mr._Leon",male,20,0,0,345769,9.5,B96_B98,S
+443,0.0,lower,"Petterson,_Mr._Johan_Emil",male,25,1,0,347076,7.775,B96_B98,S
+444,1.0,middle,"Reynaldo,_Ms._Encarnacion",female,28,0,0,230434,13.0,B96_B98,S
+445,1.0,lower,"Johannesen-Bratthammer,_Mr._Bernt",male,29,0,0,65306,8.1125,B96_B98,S
+446,1.0,upper,"Dodge,_Master._Washington",male,4,0,2,33638,81.8583,A34,S
+447,1.0,middle,"Mellinger,_Miss._Madeleine_Violet",female,13,0,1,250644,19.5,B96_B98,S
+448,1.0,upper,"Seward,_Mr._Frederic_Kimber",male,34,0,0,113794,26.55,B96_B98,S
+449,1.0,lower,"Baclini,_Miss._Marie_Catherine",female,5,2,1,2666,19.2583,B96_B98,C
+450,1.0,upper,"Peuchen,_Major._Arthur_Godfrey",male,52,0,0,113786,30.5,C104,S
+451,0.0,middle,"West,_Mr._Edwy_Arthur",male,36,1,2,C.A. 34651,27.75,B96_B98,S
+452,0.0,lower,"Hagland,_Mr._Ingvald_Olai_Olsen",male,29,1,0,65303,19.9667,B96_B98,S
+453,0.0,upper,"Foreman,_Mr._Benjamin_Laventall",male,30,0,0,113051,27.75,C111,C
+454,1.0,upper,"Goldenberg,_Mr._Samuel_L",male,49,1,0,17453,89.1042,C92,C
+455,0.0,lower,"Peduzzi,_Mr._Joseph",male,29,0,0,A/5 2817,8.05,B96_B98,S
+456,1.0,lower,"Jalsevac,_Mr._Ivan",male,29,0,0,349240,7.8958,B96_B98,C
+457,0.0,upper,"Millet,_Mr._Francis_Davis",male,65,0,0,13509,26.55,E38,S
+458,1.0,upper,"Kenyon,_Mrs._Frederick_R_(Marion)",female,29,1,0,17464,51.8625,D21,S
+459,1.0,middle,"Toomey,_Miss._Ellen",female,50,0,0,F.C.C. 13531,10.5,B96_B98,S
+460,0.0,lower,"O'Connor,_Mr._Maurice",male,29,0,0,371060,7.75,B96_B98,Q
+461,1.0,upper,"Anderson,_Mr._Harry",male,48,0,0,19952,26.55,E12,S
+462,0.0,lower,"Morley,_Mr._William",male,34,0,0,364506,8.05,B96_B98,S
+463,0.0,upper,"Gee,_Mr._Arthur_H",male,47,0,0,111320,38.5,E63,S
+464,0.0,middle,"Milling,_Mr._Jacob_Christian",male,48,0,0,234360,13.0,B96_B98,S
+465,0.0,lower,"Maisner,_Mr._Simon",male,29,0,0,A/S 2816,8.05,B96_B98,S
+466,0.0,lower,"Goncalves,_Mr._Manuel_Estanslas",male,38,0,0,SOTON/O.Q. 3101306,7.05,B96_B98,S
+467,0.0,middle,"Campbell,_Mr._William",male,29,0,0,239853,0.0,B96_B98,S
+468,0.0,upper,"Smart,_Mr._John_Montgomery",male,56,0,0,113792,26.55,B96_B98,S
+469,0.0,lower,"Scanlan,_Mr._James",male,29,0,0,36209,7.725,B96_B98,Q
+470,1.0,lower,"Baclini,_Miss._Helene_Barbara",female,0,2,1,2666,19.2583,B96_B98,C
+471,0.0,lower,"Keefe,_Mr._Arthur",male,29,0,0,323592,7.25,B96_B98,S
+472,0.0,lower,"Cacic,_Mr._Luka",male,38,0,0,315089,8.6625,B96_B98,S
+473,1.0,middle,"West,_Mrs._Edwy_Arthur_(Ada_Mary_Worth)",female,33,1,2,C.A. 34651,27.75,B96_B98,S
+474,1.0,middle,"Jerwan,_Mrs._Amin_S_(Marie_Marthe_Thuillard)",female,23,0,0,SC/AH Basle 541,13.7917,D,C
+475,0.0,lower,"Strandberg,_Miss._Ida_Sofia",female,22,0,0,7553,9.8375,B96_B98,S
+476,0.0,upper,"Clifford,_Mr._George_Quincy",male,29,0,0,110465,52.0,A14,S
+477,0.0,middle,"Renouf,_Mr._Peter_Henry",male,34,1,0,31027,21.0,B96_B98,S
+478,0.0,lower,"Braund,_Mr._Lewis_Richard",male,29,1,0,3460,7.0458,B96_B98,S
+479,0.0,lower,"Karlsson,_Mr._Nils_August",male,22,0,0,350060,7.5208,B96_B98,S
+480,1.0,lower,"Hirvonen,_Miss._Hildur_E",female,2,0,1,3101298,12.2875,B96_B98,S
+481,0.0,lower,"Goodwin,_Master._Harold_Victor",male,9,5,2,CA 2144,46.9,B96_B98,S
+482,0.0,middle,"Frost,_Mr._Anthony_Wood_""Archie""",male,29,0,0,239854,0.0,B96_B98,S
+483,0.0,lower,"Rouse,_Mr._Richard_Henry",male,50,0,0,A/5 3594,8.05,B96_B98,S
+484,1.0,lower,"Turkula,_Mrs._(Hedwig)",female,63,0,0,4134,9.5875,B96_B98,S
+485,1.0,upper,"Bishop,_Mr._Dickinson_H",male,25,1,0,11967,91.0792,B49,C
+486,0.0,lower,"Lefebre,_Miss._Jeannie",female,29,3,1,4133,25.4667,B96_B98,S
+487,1.0,upper,"Hoyt,_Mrs._Frederick_Maxfield_(Jane_Anne_Forby)",female,35,1,0,19943,90.0,C93,S
+488,0.0,upper,"Kent,_Mr._Edward_Austin",male,58,0,0,11771,29.7,B37,C
+489,0.0,lower,"Somerton,_Mr._Francis_William",male,30,0,0,A.5. 18509,8.05,B96_B98,S
+490,1.0,lower,"Coutts,_Master._Eden_Leslie_""Neville""",male,9,1,1,C.A. 37671,15.9,B96_B98,S
+491,0.0,lower,"Hagland,_Mr._Konrad_Mathias_Reiersen",male,29,1,0,65304,19.9667,B96_B98,S
+492,0.0,lower,"Windelov,_Mr._Einar",male,21,0,0,SOTON/OQ 3101317,7.25,B96_B98,S
+493,0.0,upper,"Molson,_Mr._Harry_Markland",male,55,0,0,113787,30.5,C30,S
+494,0.0,upper,"Artagaveytia,_Mr._Ramon",male,71,0,0,PC 17609,49.5042,B96_B98,C
+495,0.0,lower,"Stanley,_Mr._Edward_Roland",male,21,0,0,A/4 45380,8.05,B96_B98,S
+496,0.0,lower,"Yousseff,_Mr._Gerious",male,29,0,0,2627,14.4583,B96_B98,C
+497,1.0,upper,"Eustis,_Miss._Elizabeth_Mussey",female,54,1,0,36947,78.2667,D20,C
+498,0.0,lower,"Shellard,_Mr._Frederick_William",male,29,0,0,C.A. 6212,15.1,B96_B98,S
+499,0.0,upper,"Allison,_Mrs._Hudson_J_C_(Bessie_Waldo_Daniels)",female,25,1,2,113781,151.55,C22_C26,S
+500,0.0,lower,"Svensson,_Mr._Olof",male,24,0,0,350035,7.7958,B96_B98,S
+501,0.0,lower,"Calic,_Mr._Petar",male,17,0,0,315086,8.6625,B96_B98,S
+502,0.0,lower,"Canavan,_Miss._Mary",female,21,0,0,364846,7.75,B96_B98,Q
+503,0.0,lower,"O'Sullivan,_Miss._Bridget_Mary",female,29,0,0,330909,7.6292,B96_B98,Q
+504,0.0,lower,"Laitinen,_Miss._Kristina_Sofia",female,37,0,0,4135,9.5875,B96_B98,S
+505,1.0,upper,"Maioni,_Miss._Roberta",female,16,0,0,110152,86.5,B79,S
+506,0.0,upper,"Penasco_y_Castellana,_Mr._Victor_de_Satode",male,18,1,0,PC 17758,108.9,C65,C
+507,1.0,middle,"Quick,_Mrs._Frederick_Charles_(Jane_Richards)",female,33,0,2,26360,26.0,B96_B98,S
+508,1.0,upper,"Bradley,_Mr._George_(""George_Arthur_Brayton"")",male,29,0,0,111427,26.55,B96_B98,S
+509,0.0,lower,"Olsen,_Mr._Henry_Margido",male,28,0,0,C 4001,22.525,B96_B98,S
+510,1.0,lower,"Lang,_Mr._Fang",male,26,0,0,1601,56.4958,B96_B98,S
+511,1.0,lower,"Daly,_Mr._Eugene_Patrick",male,29,0,0,382651,7.75,B96_B98,Q
+512,0.0,lower,"Webber,_Mr._James",male,29,0,0,SOTON/OQ 3101316,8.05,B96_B98,S
+513,1.0,upper,"McGough,_Mr._James_Robert",male,36,0,0,PC 17473,26.2875,E25,S
+514,1.0,upper,"Rothschild,_Mrs._Martin_(Elizabeth_L._Barrett)",female,54,1,0,PC 17603,59.4,B96_B98,C
+515,0.0,lower,"Coleff,_Mr._Satio",male,24,0,0,349209,7.4958,B96_B98,S
+516,0.0,upper,"Walker,_Mr._William_Anderson",male,47,0,0,36967,34.0208,D46,S
+517,1.0,middle,"Lemore,_Mrs._(Amelia_Milley)",female,34,0,0,C.A. 34260,10.5,F33,S
+518,0.0,lower,"Ryan,_Mr._Patrick",male,29,0,0,371110,24.15,B96_B98,Q
+519,1.0,middle,"Angle,_Mrs._William_A_(Florence_""Mary""_Agnes_Hughes)",female,36,1,0,226875,26.0,B96_B98,S
+520,0.0,lower,"Pavlovic,_Mr._Stefo",male,32,0,0,349242,7.8958,B96_B98,S
+521,1.0,upper,"Perreault,_Miss._Anne",female,30,0,0,12749,93.5,B73,S
+522,0.0,lower,"Vovk,_Mr._Janko",male,22,0,0,349252,7.8958,B96_B98,S
+523,0.0,lower,"Lahoud,_Mr._Sarkis",male,29,0,0,2624,7.225,B96_B98,C
+524,1.0,upper,"Hippach,_Mrs._Louis_Albert_(Ida_Sophia_Fischer)",female,44,0,1,111361,57.9792,B18,C
+525,0.0,lower,"Kassem,_Mr._Fared",male,29,0,0,2700,7.2292,B96_B98,C
+526,0.0,lower,"Farrell,_Mr._James",male,40,0,0,367232,7.75,B96_B98,Q
+527,1.0,middle,"Ridsdale,_Miss._Lucy",female,50,0,0,W./C. 14258,10.5,B96_B98,S
+528,0.0,upper,"Farthing,_Mr._John",male,29,0,0,PC 17483,221.7792,C95,S
+529,0.0,lower,"Salonen,_Mr._Johan_Werner",male,39,0,0,3101296,7.925,B96_B98,S
+530,0.0,middle,"Hocking,_Mr._Richard_George",male,23,2,1,29104,11.5,B96_B98,S
+531,1.0,middle,"Quick,_Miss._Phyllis_May",female,2,1,1,26360,26.0,B96_B98,S
+532,0.0,lower,"Toufik,_Mr._Nakli",male,29,0,0,2641,7.2292,B96_B98,C
+533,0.0,lower,"Elias,_Mr._Joseph_Jr",male,17,1,1,2690,7.2292,B96_B98,C
+534,1.0,lower,"Peter,_Mrs._Catherine_(Catherine_Rizk)",female,29,0,2,2668,22.3583,B96_B98,C
+535,0.0,lower,"Cacic,_Miss._Marija",female,30,0,0,315084,8.6625,B96_B98,S
+536,1.0,middle,"Hart,_Miss._Eva_Miriam",female,7,0,2,F.C.C. 13529,26.25,B96_B98,S
+537,0.0,upper,"Butt,_Major._Archibald_Willingham",male,45,0,0,113050,26.55,B38,S
+538,1.0,upper,"LeRoy,_Miss._Bertha",female,30,0,0,PC 17761,106.425,B96_B98,C
+539,0.0,lower,"Risien,_Mr._Samuel_Beard",male,29,0,0,364498,14.5,B96_B98,S
+540,1.0,upper,"Frolicher,_Miss._Hedwig_Margaritha",female,22,0,2,13568,49.5,B39,C
+541,1.0,upper,"Crosby,_Miss._Harriet_R",female,36,0,2,WE/P 5735,71.0,B22,S
+542,0.0,lower,"Andersson,_Miss._Ingeborg_Constanzia",female,9,4,2,347082,31.275,B96_B98,S
+543,0.0,lower,"Andersson,_Miss._Sigrid_Elisabeth",female,11,4,2,347082,31.275,B96_B98,S
+544,1.0,middle,"Beane,_Mr._Edward",male,32,1,0,2908,26.0,B96_B98,S
+545,0.0,upper,"Douglas,_Mr._Walter_Donald",male,50,1,0,PC 17761,106.425,C86,C
+546,0.0,upper,"Nicholson,_Mr._Arthur_Ernest",male,64,0,0,693,26.0,B96_B98,S
+547,1.0,middle,"Beane,_Mrs._Edward_(Ethel_Clarke)",female,19,1,0,2908,26.0,B96_B98,S
+548,1.0,middle,"Padro_y_Manent,_Mr._Julian",male,29,0,0,SC/PARIS 2146,13.8625,B96_B98,C
+549,0.0,lower,"Goldsmith,_Mr._Frank_John",male,33,1,1,363291,20.525,B96_B98,S
+550,1.0,middle,"Davies,_Master._John_Morgan_Jr",male,8,1,1,C.A. 33112,36.75,B96_B98,S
+551,1.0,upper,"Thayer,_Mr._John_Borland_Jr",male,17,0,2,17421,110.8833,C70,C
+552,0.0,middle,"Sharp,_Mr._Percival_James_R",male,27,0,0,244358,26.0,B96_B98,S
+553,0.0,lower,"O'Brien,_Mr._Timothy",male,29,0,0,330979,7.8292,B96_B98,Q
+554,1.0,lower,"Leeni,_Mr._Fahim_(""Philip_Zenni"")",male,22,0,0,2620,7.225,B96_B98,C
+555,1.0,lower,"Ohman,_Miss._Velin",female,22,0,0,347085,7.775,B96_B98,S
+556,0.0,upper,"Wright,_Mr._George",male,62,0,0,113807,26.55,B96_B98,S
+557,1.0,upper,"Duff_Gordon,_Lady._(Lucille_Christiana_Sutherland)_(""Mrs_Morgan"")",female,48,1,0,11755,39.6,A16,C
+558,0.0,upper,"Robbins,_Mr._Victor",male,29,0,0,PC 17757,227.525,B96_B98,C
+559,1.0,upper,"Taussig,_Mrs._Emil_(Tillie_Mandelbaum)",female,39,1,1,110413,79.65,E67,S
+560,1.0,lower,"de_Messemaeker,_Mrs._Guillaume_Joseph_(Emma)",female,36,1,0,345572,17.4,B96_B98,S
+561,0.0,lower,"Morrow,_Mr._Thomas_Rowan",male,29,0,0,372622,7.75,B96_B98,Q
+562,0.0,lower,"Sivic,_Mr._Husein",male,40,0,0,349251,7.8958,B96_B98,S
+563,0.0,middle,"Norman,_Mr._Robert_Douglas",male,28,0,0,218629,13.5,B96_B98,S
+564,0.0,lower,"Simmons,_Mr._John",male,29,0,0,SOTON/OQ 392082,8.05,B96_B98,S
+565,0.0,lower,"Meanwell,_Miss._(Marion_Ogden)",female,29,0,0,SOTON/O.Q. 392087,8.05,B96_B98,S
+566,0.0,lower,"Davies,_Mr._Alfred_J",male,24,2,0,A/4 48871,24.15,B96_B98,S
+567,0.0,lower,"Stoytcheff,_Mr._Ilia",male,19,0,0,349205,7.8958,B96_B98,S
+568,0.0,lower,"Palsson,_Mrs._Nils_(Alma_Cornelia_Berglund)",female,29,0,4,349909,21.075,B96_B98,S
+569,0.0,lower,"Doharr,_Mr._Tannous",male,29,0,0,2686,7.2292,B96_B98,C
+570,1.0,lower,"Jonsson,_Mr._Carl",male,32,0,0,350417,7.8542,B96_B98,S
+571,1.0,middle,"Harris,_Mr._George",male,62,0,0,S.W./PP 752,10.5,B96_B98,S
+572,1.0,upper,"Appleton,_Mrs._Edward_Dale_(Charlotte_Lamson)",female,53,2,0,11769,51.4792,C101,S
+573,1.0,upper,"Flynn,_Mr._John_Irwin_(""Irving"")",male,36,0,0,PC 17474,26.3875,E25,S
+574,1.0,lower,"Kelly,_Miss._Mary",female,29,0,0,14312,7.75,B96_B98,Q
+575,0.0,lower,"Rush,_Mr._Alfred_George_John",male,16,0,0,A/4. 20589,8.05,B96_B98,S
+576,0.0,lower,"Patchett,_Mr._George",male,19,0,0,358585,14.5,B96_B98,S
+577,1.0,middle,"Garside,_Miss._Ethel",female,34,0,0,243880,13.0,B96_B98,S
+578,1.0,upper,"Silvey,_Mrs._William_Baird_(Alice_Munger)",female,39,1,0,13507,55.9,E44,S
+579,0.0,lower,"Caram,_Mrs._Joseph_(Maria_Elias)",female,29,1,0,2689,14.4583,B96_B98,C
+580,1.0,lower,"Jussila,_Mr._Eiriik",male,32,0,0,STON/O 2. 3101286,7.925,B96_B98,S
+581,1.0,middle,"Christy,_Miss._Julie_Rachel",female,25,1,1,237789,30.0,B96_B98,S
+582,1.0,upper,"Thayer,_Mrs._John_Borland_(Marian_Longstreth_Morris)",female,39,1,1,17421,110.8833,C68,C
+583,0.0,middle,"Downton,_Mr._William_James",male,54,0,0,28403,26.0,B96_B98,S
+584,0.0,upper,"Ross,_Mr._John_Hugo",male,36,0,0,13049,40.125,A10,C
+585,0.0,lower,"Paulner,_Mr._Uscher",male,29,0,0,3411,8.7125,B96_B98,C
+586,1.0,upper,"Taussig,_Miss._Ruth",female,18,0,2,110413,79.65,E68,S
+587,0.0,middle,"Jarvis,_Mr._John_Denzil",male,47,0,0,237565,15.0,B96_B98,S
+588,1.0,upper,"Frolicher-Stehli,_Mr._Maxmillian",male,60,1,1,13567,79.2,B41,C
+589,0.0,lower,"Gilinski,_Mr._Eliezer",male,22,0,0,14973,8.05,B96_B98,S
+590,0.0,lower,"Murdlin,_Mr._Joseph",male,29,0,0,A./5. 3235,8.05,B96_B98,S
+591,0.0,lower,"Rintamaki,_Mr._Matti",male,35,0,0,STON/O 2. 3101273,7.125,B96_B98,S
+592,1.0,upper,"Stephenson,_Mrs._Walter_Bertram_(Martha_Eustis)",female,52,1,0,36947,78.2667,D20,C
+593,0.0,lower,"Elsbury,_Mr._William_James",male,47,0,0,A/5 3902,7.25,B96_B98,S
+594,0.0,lower,"Bourke,_Miss._Mary",female,29,0,2,364848,7.75,B96_B98,Q
+595,0.0,middle,"Chapman,_Mr._John_Henry",male,37,1,0,SC/AH 29037,26.0,B96_B98,S
+596,0.0,lower,"Van_Impe,_Mr._Jean_Baptiste",male,36,1,1,345773,24.15,B96_B98,S
+597,1.0,middle,"Leitch,_Miss._Jessie_Wills",female,29,0,0,248727,33.0,B96_B98,S
+598,0.0,lower,"Johnson,_Mr._Alfred",male,49,0,0,LINE,0.0,B96_B98,S
+599,0.0,lower,"Boulos,_Mr._Hanna",male,29,0,0,2664,7.225,B96_B98,C
+600,1.0,upper,"Duff_Gordon,_Sir._Cosmo_Edmund_(""Mr_Morgan"")",male,49,1,0,PC 17485,56.9292,A20,C
+601,1.0,middle,"Jacobsohn,_Mrs._Sidney_Samuel_(Amy_Frances_Christy)",female,24,2,1,243847,27.0,B96_B98,S
+602,0.0,lower,"Slabenoff,_Mr._Petco",male,29,0,0,349214,7.8958,B96_B98,S
+603,0.0,upper,"Harrington,_Mr._Charles_H",male,29,0,0,113796,42.4,B96_B98,S
+604,0.0,lower,"Torber,_Mr._Ernst_William",male,44,0,0,364511,8.05,B96_B98,S
+605,1.0,upper,"Homer,_Mr._Harry_(""Mr_E_Haven"")",male,35,0,0,111426,26.55,B96_B98,C
+606,0.0,lower,"Lindell,_Mr._Edvard_Bengtsson",male,36,1,0,349910,15.55,B96_B98,S
+607,0.0,lower,"Karaic,_Mr._Milan",male,30,0,0,349246,7.8958,B96_B98,S
+608,1.0,upper,"Daniel,_Mr._Robert_Williams",male,27,0,0,113804,30.5,B96_B98,S
+609,1.0,middle,"Laroche,_Mrs._Joseph_(Juliette_Marie_Louise_Lafargue)",female,22,1,2,SC/Paris 2123,41.5792,B96_B98,C
+610,1.0,upper,"Shutes,_Miss._Elizabeth_W",female,40,0,0,PC 17582,153.4625,C125,S
+611,0.0,lower,"Andersson,_Mrs._Anders_Johan_(Alfrida_Konstantia_Brogren)",female,39,1,5,347082,31.275,B96_B98,S
+612,0.0,lower,"Jardin,_Mr._Jose_Neto",male,29,0,0,SOTON/O.Q. 3101305,7.05,B96_B98,S
+613,1.0,lower,"Murphy,_Miss._Margaret_Jane",female,29,1,0,367230,15.5,B96_B98,Q
+614,0.0,lower,"Horgan,_Mr._John",male,29,0,0,370377,7.75,B96_B98,Q
+615,0.0,lower,"Brocklebank,_Mr._William_Alfred",male,35,0,0,364512,8.05,B96_B98,S
+616,1.0,middle,"Herman,_Miss._Alice",female,24,1,2,220845,65.0,B96_B98,S
+617,0.0,lower,"Danbom,_Mr._Ernst_Gilbert",male,34,1,1,347080,14.4,B96_B98,S
+618,0.0,lower,"Lobb,_Mrs._William_Arthur_(Cordelia_K_Stanlick)",female,26,1,0,A/5. 3336,16.1,B96_B98,S
+619,1.0,middle,"Becker,_Miss._Marion_Louise",female,4,2,1,230136,39.0,F4,S
+620,0.0,middle,"Gavey,_Mr._Lawrence",male,26,0,0,31028,10.5,B96_B98,S
+621,0.0,lower,"Yasbeck,_Mr._Antoni",male,27,1,0,2659,14.4542,B96_B98,C
+622,1.0,upper,"Kimball,_Mr._Edwin_Nelson_Jr",male,42,1,0,11753,52.5542,D19,S
+623,1.0,lower,"Nakid,_Mr._Sahid",male,20,1,1,2653,15.7417,B96_B98,C
+624,0.0,lower,"Hansen,_Mr._Henry_Damsgaard",male,21,0,0,350029,7.8542,B96_B98,S
+625,0.0,lower,"Bowen,_Mr._David_John_""Dai""",male,21,0,0,54636,16.1,B96_B98,S
+626,0.0,upper,"Sutton,_Mr._Frederick",male,61,0,0,36963,32.3208,D50,S
+627,0.0,middle,"Kirkland,_Rev._Charles_Leonard",male,57,0,0,219533,12.35,B96_B98,Q
+628,1.0,upper,"Longley,_Miss._Gretchen_Fiske",female,21,0,0,13502,77.9583,D9,S
+629,0.0,lower,"Bostandyeff,_Mr._Guentcho",male,26,0,0,349224,7.8958,B96_B98,S
+630,0.0,lower,"O'Connell,_Mr._Patrick_D",male,29,0,0,334912,7.7333,B96_B98,Q
+631,1.0,upper,"Barkworth,_Mr._Algernon_Henry_Wilson",male,80,0,0,27042,30.0,A23,S
+632,0.0,lower,"Lundahl,_Mr._Johan_Svensson",male,51,0,0,347743,7.0542,B96_B98,S
+633,1.0,upper,"Stahelin-Maeglin,_Dr._Max",male,32,0,0,13214,30.5,B50,C
+634,0.0,upper,"Parr,_Mr._William_Henry_Marsh",male,29,0,0,112052,0.0,B96_B98,S
+635,0.0,lower,"Skoog,_Miss._Mabel",female,9,3,2,347088,27.9,B96_B98,S
+636,1.0,middle,"Davis,_Miss._Mary",female,28,0,0,237668,13.0,B96_B98,S
+637,0.0,lower,"Leinonen,_Mr._Antti_Gustaf",male,32,0,0,STON/O 2. 3101292,7.925,B96_B98,S
+638,0.0,middle,"Collyer,_Mr._Harvey",male,31,1,1,C.A. 31921,26.25,B96_B98,S
+639,0.0,lower,"Panula,_Mrs._Juha_(Maria_Emilia_Ojala)",female,41,0,5,3101295,39.6875,B96_B98,S
+640,0.0,lower,"Thorneycroft,_Mr._Percival",male,29,1,0,376564,16.1,B96_B98,S
+641,0.0,lower,"Jensen,_Mr._Hans_Peder",male,20,0,0,350050,7.8542,B96_B98,S
+642,1.0,upper,"Sagesser,_Mlle._Emma",female,24,0,0,PC 17477,69.3,B35,C
+643,0.0,lower,"Skoog,_Miss._Margit_Elizabeth",female,2,3,2,347088,27.9,B96_B98,S
+644,1.0,lower,"Foo,_Mr._Choong",male,29,0,0,1601,56.4958,B96_B98,S
+645,1.0,lower,"Baclini,_Miss._Eugenie",female,0,2,1,2666,19.2583,B96_B98,C
+646,1.0,upper,"Harper,_Mr._Henry_Sleeper",male,48,1,0,PC 17572,76.7292,D33,C
+647,0.0,lower,"Cor,_Mr._Liudevit",male,19,0,0,349231,7.8958,B96_B98,S
+648,1.0,upper,"Simonius-Blumer,_Col._Oberst_Alfons",male,56,0,0,13213,35.5,A26,C
+649,0.0,lower,"Willey,_Mr._Edward",male,29,0,0,S.O./P.P. 751,7.55,B96_B98,S
+650,1.0,lower,"Stanley,_Miss._Amy_Zillah_Elsie",female,23,0,0,CA. 2314,7.55,B96_B98,S
+651,0.0,lower,"Mitkoff,_Mr._Mito",male,29,0,0,349221,7.8958,B96_B98,S
+652,1.0,middle,"Doling,_Miss._Elsie",female,18,0,1,231919,23.0,B96_B98,S
+653,0.0,lower,"Kalvik,_Mr._Johannes_Halvorsen",male,21,0,0,8475,8.4333,B96_B98,S
+654,1.0,lower,"O'Leary,_Miss._Hanora_""Norah""",female,29,0,0,330919,7.8292,B96_B98,Q
+655,0.0,lower,"Hegarty,_Miss._Hanora_""Nora""",female,18,0,0,365226,6.75,B96_B98,Q
+656,0.0,middle,"Hickman,_Mr._Leonard_Mark",male,24,2,0,S.O.C. 14879,73.5,B96_B98,S
+657,0.0,lower,"Radeff,_Mr._Alexander",male,29,0,0,349223,7.8958,B96_B98,S
+658,0.0,lower,"Bourke,_Mrs._John_(Catherine)",female,32,1,1,364849,15.5,B96_B98,Q
+659,0.0,middle,"Eitemiller,_Mr._George_Floyd",male,23,0,0,29751,13.0,B96_B98,S
+660,0.0,upper,"Newell,_Mr._Arthur_Webster",male,58,0,2,35273,113.275,D48,C
+661,1.0,upper,"Frauenthal,_Dr._Henry_William",male,50,2,0,PC 17611,133.65,B96_B98,S
+662,0.0,lower,"Badt,_Mr._Mohamed",male,40,0,0,2623,7.225,B96_B98,C
+663,0.0,upper,"Colley,_Mr._Edward_Pomeroy",male,47,0,0,5727,25.5875,E58,S
+664,0.0,lower,"Coleff,_Mr._Peju",male,36,0,0,349210,7.4958,B96_B98,S
+665,1.0,lower,"Lindqvist,_Mr._Eino_William",male,20,1,0,STON/O 2. 3101285,7.925,B96_B98,S
+666,0.0,middle,"Hickman,_Mr._Lewis",male,32,2,0,S.O.C. 14879,73.5,B96_B98,S
+667,0.0,middle,"Butler,_Mr._Reginald_Fenton",male,25,0,0,234686,13.0,B96_B98,S
+668,0.0,lower,"Rommetvedt,_Mr._Knud_Paust",male,29,0,0,312993,7.775,B96_B98,S
+669,0.0,lower,"Cook,_Mr._Jacob",male,43,0,0,A/5 3536,8.05,B96_B98,S
+670,1.0,upper,"Taylor,_Mrs._Elmer_Zebley_(Juliet_Cummins_Wright)",female,29,1,0,19996,52.0,C126,S
+671,1.0,middle,"Brown,_Mrs._Thomas_William_Solomon_(Elizabeth_Catherine_Ford)",female,40,1,1,29750,39.0,B96_B98,S
+672,0.0,upper,"Davidson,_Mr._Thornton",male,31,1,0,F.C. 12750,52.0,B71,S
+673,0.0,middle,"Mitchell,_Mr._Henry_Michael",male,70,0,0,C.A. 24580,10.5,B96_B98,S
+674,1.0,middle,"Wilhelms,_Mr._Charles",male,31,0,0,244270,13.0,B96_B98,S
+675,0.0,middle,"Watson,_Mr._Ennis_Hastings",male,29,0,0,239856,0.0,B96_B98,S
+676,0.0,lower,"Edvardsson,_Mr._Gustaf_Hjalmar",male,18,0,0,349912,7.775,B96_B98,S
+677,0.0,lower,"Sawyer,_Mr._Frederick_Charles",male,24,0,0,342826,8.05,B96_B98,S
+678,1.0,lower,"Turja,_Miss._Anna_Sofia",female,18,0,0,4138,9.8417,B96_B98,S
+679,0.0,lower,"Goodwin,_Mrs._Frederick_(Augusta_Tyler)",female,43,1,6,CA 2144,46.9,B96_B98,S
+680,1.0,upper,"Cardeza,_Mr._Thomas_Drake_Martinez",male,36,0,1,PC 17755,512.3292,B51_B53_B55,C
+681,0.0,lower,"Peters,_Miss._Katie",female,29,0,0,330935,8.1375,B96_B98,Q
+682,1.0,upper,"Hassab,_Mr._Hammad",male,27,0,0,PC 17572,76.7292,D49,C
+683,0.0,lower,"Olsvigen,_Mr._Thor_Anderson",male,20,0,0,6563,9.225,B96_B98,S
+684,0.0,lower,"Goodwin,_Mr._Charles_Edward",male,14,5,2,CA 2144,46.9,B96_B98,S
+685,0.0,middle,"Brown,_Mr._Thomas_William_Solomon",male,60,1,1,29750,39.0,B96_B98,S
+686,0.0,middle,"Laroche,_Mr._Joseph_Philippe_Lemercier",male,25,1,2,SC/Paris 2123,41.5792,B96_B98,C
+687,0.0,lower,"Panula,_Mr._Jaako_Arnold",male,14,4,1,3101295,39.6875,B96_B98,S
+688,0.0,lower,"Dakic,_Mr._Branko",male,19,0,0,349228,10.1708,B96_B98,S
+689,0.0,lower,"Fischer,_Mr._Eberhard_Thelander",male,18,0,0,350036,7.7958,B96_B98,S
+690,1.0,upper,"Madill,_Miss._Georgette_Alexandra",female,15,0,1,24160,211.3375,B5,S
+691,1.0,upper,"Dick,_Mr._Albert_Adrian",male,31,1,0,17474,57.0,B20,S
+692,1.0,lower,"Karun,_Miss._Manca",female,4,0,1,349256,13.4167,B96_B98,C
+693,1.0,lower,"Lam,_Mr._Ali",male,29,0,0,1601,56.4958,B96_B98,S
+694,0.0,lower,"Saad,_Mr._Khalil",male,25,0,0,2672,7.225,B96_B98,C
+695,0.0,upper,"Weir,_Col._John",male,60,0,0,113800,26.55,B96_B98,S
+696,0.0,middle,"Chapman,_Mr._Charles_Henry",male,52,0,0,248731,13.5,B96_B98,S
+697,0.0,lower,"Kelly,_Mr._James",male,44,0,0,363592,8.05,B96_B98,S
+698,1.0,lower,"Mullens,_Miss._Katherine_""Katie""",female,29,0,0,35852,7.7333,B96_B98,Q
+699,0.0,upper,"Thayer,_Mr._John_Borland",male,49,1,1,17421,110.8833,C68,C
+700,0.0,lower,"Humblen,_Mr._Adolf_Mathias_Nicolai_Olsen",male,42,0,0,348121,7.65,F_G63,S
+701,1.0,upper,"Astor,_Mrs._John_Jacob_(Madeleine_Talmadge_Force)",female,18,1,0,PC 17757,227.525,C62_C64,C
+702,1.0,upper,"Silverthorne,_Mr._Spencer_Victor",male,35,0,0,PC 17475,26.2875,E24,S
+703,0.0,lower,"Barbara,_Miss._Saiide",female,18,0,1,2691,14.4542,B96_B98,C
+704,0.0,lower,"Gallagher,_Mr._Martin",male,25,0,0,36864,7.7417,B96_B98,Q
+705,0.0,lower,"Hansen,_Mr._Henrik_Juul",male,26,1,0,350025,7.8542,B96_B98,S
+706,0.0,middle,"Morley,_Mr._Henry_Samuel_(""Mr_Henry_Marshall"")",male,39,0,0,250655,26.0,B96_B98,S
+707,1.0,middle,"Kelly,_Mrs._Florence_""Fannie""",female,45,0,0,223596,13.5,B96_B98,S
+708,1.0,upper,"Calderhead,_Mr._Edward_Pennington",male,42,0,0,PC 17476,26.2875,E24,S
+709,1.0,upper,"Cleaver,_Miss._Alice",female,22,0,0,113781,151.55,B96_B98,S
+710,1.0,lower,"Moubarek,_Master._Halim_Gonios_(""William_George"")",male,29,1,1,2661,15.2458,B96_B98,C
+711,1.0,upper,"Mayne,_Mlle._Berthe_Antonine_(""Mrs_de_Villiers"")",female,24,0,0,PC 17482,49.5042,C90,C
+712,0.0,upper,"Klaber,_Mr._Herman",male,29,0,0,113028,26.55,C124,S
+713,1.0,upper,"Taylor,_Mr._Elmer_Zebley",male,48,1,0,19996,52.0,C126,S
+714,0.0,lower,"Larsson,_Mr._August_Viktor",male,29,0,0,7545,9.4833,B96_B98,S
+715,0.0,middle,"Greenberg,_Mr._Samuel",male,52,0,0,250647,13.0,B96_B98,S
+716,0.0,lower,"Soholt,_Mr._Peter_Andreas_Lauritz_Andersen",male,19,0,0,348124,7.65,F_G73,S
+717,1.0,upper,"Endres,_Miss._Caroline_Louise",female,38,0,0,PC 17757,227.525,C45,C
+718,1.0,middle,"Troutt,_Miss._Edwina_Celia_""Winnie""",female,27,0,0,34218,10.5,E101,S
+719,0.0,lower,"McEvoy,_Mr._Michael",male,29,0,0,36568,15.5,B96_B98,Q
+720,0.0,lower,"Johnson,_Mr._Malkolm_Joackim",male,33,0,0,347062,7.775,B96_B98,S
+721,1.0,middle,"Harper,_Miss._Annie_Jessie_""Nina""",female,6,0,1,248727,33.0,B96_B98,S
+722,0.0,lower,"Jensen,_Mr._Svend_Lauritz",male,17,1,0,350048,7.0542,B96_B98,S
+723,0.0,middle,"Gillespie,_Mr._William_Henry",male,34,0,0,12233,13.0,B96_B98,S
+724,0.0,middle,"Hodges,_Mr._Henry_Price",male,50,0,0,250643,13.0,B96_B98,S
+725,1.0,upper,"Chambers,_Mr._Norman_Campbell",male,27,1,0,113806,53.1,E8,S
+726,0.0,lower,"Oreskovic,_Mr._Luka",male,20,0,0,315094,8.6625,B96_B98,S
+727,1.0,middle,"Renouf,_Mrs._Peter_Henry_(Lillian_Jefferys)",female,30,3,0,31027,21.0,B96_B98,S
+728,1.0,lower,"Mannion,_Miss._Margareth",female,29,0,0,36866,7.7375,B96_B98,Q
+729,0.0,middle,"Bryhl,_Mr._Kurt_Arnold_Gottfrid",male,25,1,0,236853,26.0,B96_B98,S
+730,0.0,lower,"Ilmakangas,_Miss._Pieta_Sofia",female,25,1,0,STON/O2. 3101271,7.925,B96_B98,S
+731,1.0,upper,"Allen,_Miss._Elisabeth_Walton",female,29,0,0,24160,211.3375,B5,S
+732,0.0,lower,"Hassan,_Mr._Houssein_G_N",male,11,0,0,2699,18.7875,B96_B98,C
+733,0.0,middle,"Knight,_Mr._Robert_J",male,29,0,0,239855,0.0,B96_B98,S
+734,0.0,middle,"Berriman,_Mr._William_John",male,23,0,0,28425,13.0,B96_B98,S
+735,0.0,middle,"Troupiansky,_Mr._Moses_Aaron",male,23,0,0,233639,13.0,B96_B98,S
+736,0.0,lower,"Williams,_Mr._Leslie",male,28,0,0,54636,16.1,B96_B98,S
+737,0.0,lower,"Ford,_Mrs._Edward_(Margaret_Ann_Watson)",female,48,1,3,W./C. 6608,34.375,B96_B98,S
+738,1.0,upper,"Lesurer,_Mr._Gustave_J",male,35,0,0,PC 17755,512.3292,B101,C
+739,0.0,lower,"Ivanoff,_Mr._Kanio",male,29,0,0,349201,7.8958,B96_B98,S
+740,0.0,lower,"Nankoff,_Mr._Minko",male,29,0,0,349218,7.8958,B96_B98,S
+741,1.0,upper,"Hawksford,_Mr._Walter_James",male,29,0,0,16988,30.0,D45,S
+742,0.0,upper,"Cavendish,_Mr._Tyrell_William",male,36,1,0,19877,78.85,C46,S
+743,1.0,upper,"Ryerson,_Miss._Susan_Parker_""Suzette""",female,21,2,2,PC 17608,262.375,B57_B59_B63_B66,C
+744,0.0,lower,"McNamee,_Mr._Neal",male,24,1,0,376566,16.1,B96_B98,S
+745,1.0,lower,"Stranden,_Mr._Juho",male,31,0,0,STON/O 2. 3101288,7.925,B96_B98,S
+746,0.0,upper,"Crosby,_Capt._Edward_Gifford",male,70,1,1,WE/P 5735,71.0,B22,S
+747,0.0,lower,"Abbott,_Mr._Rossmore_Edward",male,16,1,1,C.A. 2673,20.25,B96_B98,S
+748,1.0,middle,"Sinkkonen,_Miss._Anna",female,30,0,0,250648,13.0,B96_B98,S
+749,0.0,upper,"Marvin,_Mr._Daniel_Warner",male,19,1,0,113773,53.1,D30,S
+750,0.0,lower,"Connaghton,_Mr._Michael",male,31,0,0,335097,7.75,B96_B98,Q
+751,1.0,middle,"Wells,_Miss._Joan",female,4,1,1,29103,23.0,B96_B98,S
+752,1.0,lower,"Moor,_Master._Meier",male,6,0,1,392096,12.475,E121,S
+753,0.0,lower,"Vande_Velde,_Mr._Johannes_Joseph",male,33,0,0,345780,9.5,B96_B98,S
+754,0.0,lower,"Jonkoff,_Mr._Lalio",male,23,0,0,349204,7.8958,B96_B98,S
+755,1.0,middle,"Herman,_Mrs._Samuel_(Jane_Laver)",female,48,1,2,220845,65.0,B96_B98,S
+756,1.0,middle,"Hamalainen,_Master._Viljo",male,0,1,1,250649,14.5,B96_B98,S
+757,0.0,lower,"Carlsson,_Mr._August_Sigfrid",male,28,0,0,350042,7.7958,B96_B98,S
+758,0.0,middle,"Bailey,_Mr._Percy_Andrew",male,18,0,0,29108,11.5,B96_B98,S
+759,0.0,lower,"Theobald,_Mr._Thomas_Leonard",male,34,0,0,363294,8.05,B96_B98,S
+760,1.0,upper,"Rothes,_the_Countess._of_(Lucy_Noel_Martha_Dyer-Edwards)",female,33,0,0,110152,86.5,B77,S
+761,0.0,lower,"Garfirth,_Mr._John",male,29,0,0,358585,14.5,B96_B98,S
+762,0.0,lower,"Nirva,_Mr._Iisakki_Antino_Aijo",male,41,0,0,SOTON/O2 3101272,7.125,B96_B98,S
+763,1.0,lower,"Barah,_Mr._Hanna_Assi",male,20,0,0,2663,7.2292,B96_B98,C
+764,1.0,upper,"Carter,_Mrs._William_Ernest_(Lucile_Polk)",female,36,1,2,113760,120.0,B96_B98,S
+765,0.0,lower,"Eklund,_Mr._Hans_Linus",male,16,0,0,347074,7.775,B96_B98,S
+766,1.0,upper,"Hogeboom,_Mrs._John_C_(Anna_Andrews)",female,51,1,0,13502,77.9583,D11,S
+767,0.0,upper,"Brewe,_Dr._Arthur_Jackson",male,29,0,0,112379,39.6,B96_B98,C
+768,0.0,lower,"Mangan,_Miss._Mary",female,30,0,0,364850,7.75,B96_B98,Q
+769,0.0,lower,"Moran,_Mr._Daniel_J",male,29,1,0,371110,24.15,B96_B98,Q
+770,0.0,lower,"Gronnestad,_Mr._Daniel_Danielsen",male,32,0,0,8471,8.3625,B96_B98,S
+771,0.0,lower,"Lievens,_Mr._Rene_Aime",male,24,0,0,345781,9.5,B96_B98,S
+772,0.0,lower,"Jensen,_Mr._Niels_Peder",male,48,0,0,350047,7.8542,B96_B98,S
+773,0.0,middle,"Mack,_Mrs._(Mary)",female,57,0,0,S.O./P.P. 3,10.5,E77,S
+774,0.0,lower,"Elias,_Mr._Dibo",male,29,0,0,2674,7.225,B96_B98,C
+775,1.0,middle,"Hocking,_Mrs._Elizabeth_(Eliza_Needs)",female,54,1,3,29105,23.0,B96_B98,S
+776,0.0,lower,"Myhrman,_Mr._Pehr_Fabian_Oliver_Malkolm",male,18,0,0,347078,7.75,B96_B98,S
+777,0.0,lower,"Tobin,_Mr._Roger",male,29,0,0,383121,7.75,F38,Q
+778,1.0,lower,"Emanuel,_Miss._Virginia_Ethel",female,5,0,0,364516,12.475,B96_B98,S
+779,0.0,lower,"Kilgannon,_Mr._Thomas_J",male,29,0,0,36865,7.7375,B96_B98,Q
+780,1.0,upper,"Robert,_Mrs._Edward_Scott_(Elisabeth_Walton_McMillan)",female,43,0,1,24160,211.3375,B3,S
+781,1.0,lower,"Ayoub,_Miss._Banoura",female,13,0,0,2687,7.2292,B96_B98,C
+782,1.0,upper,"Dick,_Mrs._Albert_Adrian_(Vera_Gillespie)",female,17,1,0,17474,57.0,B20,S
+783,0.0,upper,"Long,_Mr._Milton_Clyde",male,29,0,0,113501,30.0,D6,S
+784,0.0,lower,"Johnston,_Mr._Andrew_G",male,29,1,2,W./C. 6607,23.45,B96_B98,S
+785,0.0,lower,"Ali,_Mr._William",male,25,0,0,SOTON/O.Q. 3101312,7.05,B96_B98,S
+786,0.0,lower,"Harmer,_Mr._Abraham_(David_Lishin)",male,25,0,0,374887,7.25,B96_B98,S
+787,1.0,lower,"Sjoblom,_Miss._Anna_Sofia",female,18,0,0,3101265,7.4958,B96_B98,S
+788,0.0,lower,"Rice,_Master._George_Hugh",male,8,4,1,382652,29.125,B96_B98,Q
+789,1.0,lower,"Dean,_Master._Bertram_Vere",male,1,1,2,C.A. 2315,20.575,B96_B98,S
+790,0.0,upper,"Guggenheim,_Mr._Benjamin",male,46,0,0,PC 17593,79.2,B82_B84,C
+791,0.0,lower,"Keane,_Mr._Andrew_""Andy""",male,29,0,0,12460,7.75,B96_B98,Q
+792,0.0,middle,"Gaskell,_Mr._Alfred",male,16,0,0,239865,26.0,B96_B98,S
+793,0.0,lower,"Sage,_Miss._Stella_Anna",female,29,8,2,CA. 2343,69.55,B96_B98,S
+794,0.0,upper,"Hoyt,_Mr._William_Fisher",male,29,0,0,PC 17600,30.6958,B96_B98,C
+795,0.0,lower,"Dantcheff,_Mr._Ristiu",male,25,0,0,349203,7.8958,B96_B98,S
+796,0.0,middle,"Otter,_Mr._Richard",male,39,0,0,28213,13.0,B96_B98,S
+797,1.0,upper,"Leader,_Dr._Alice_(Farnham)",female,49,0,0,17465,25.9292,D17,S
+798,1.0,lower,"Osman,_Mrs._Mara",female,31,0,0,349244,8.6833,B96_B98,S
+799,0.0,lower,"Ibrahim_Shawah,_Mr._Yousseff",male,30,0,0,2685,7.2292,B96_B98,C
+800,0.0,lower,"Van_Impe,_Mrs._Jean_Baptiste_(Rosalie_Paula_Govaert)",female,30,1,1,345773,24.15,B96_B98,S
+801,0.0,middle,"Ponesell,_Mr._Martin",male,34,0,0,250647,13.0,B96_B98,S
+802,1.0,middle,"Collyer,_Mrs._Harvey_(Charlotte_Annie_Tate)",female,31,1,1,C.A. 31921,26.25,B96_B98,S
+803,1.0,upper,"Carter,_Master._William_Thornton_II",male,11,1,2,113760,120.0,B96_B98,S
+804,1.0,lower,"Thomas,_Master._Assad_Alexander",male,0,0,1,2625,8.5167,B96_B98,C
+805,1.0,lower,"Hedman,_Mr._Oskar_Arvid",male,27,0,0,347089,6.975,B96_B98,S
+806,0.0,lower,"Johansson,_Mr._Karl_Johan",male,31,0,0,347063,7.775,B96_B98,S
+807,0.0,upper,"Andrews,_Mr._Thomas_Jr",male,39,0,0,112050,0.0,A36,S
+808,0.0,lower,"Pettersson,_Miss._Ellen_Natalia",female,18,0,0,347087,7.775,B96_B98,S
+809,0.0,middle,"Meyer,_Mr._August",male,39,0,0,248723,13.0,B96_B98,S
+810,1.0,upper,"Chambers,_Mrs._Norman_Campbell_(Bertha_Griggs)",female,33,1,0,113806,53.1,E8,S
+811,0.0,lower,"Alexander,_Mr._William",male,26,0,0,3474,7.8875,B96_B98,S
+812,0.0,lower,"Lester,_Mr._James",male,39,0,0,A/4 48871,24.15,B96_B98,S
+813,0.0,middle,"Slemen,_Mr._Richard_James",male,35,0,0,28206,10.5,B96_B98,S
+814,0.0,lower,"Andersson,_Miss._Ebba_Iris_Alfrida",female,6,4,2,347082,31.275,B96_B98,S
+815,0.0,lower,"Tomlin,_Mr._Ernest_Portage",male,30,0,0,364499,8.05,B96_B98,S
+816,0.0,upper,"Fry,_Mr._Richard",male,29,0,0,112058,0.0,B102,S
+817,0.0,lower,"Heininen,_Miss._Wendla_Maria",female,23,0,0,STON/O2. 3101290,7.925,B96_B98,S
+818,0.0,middle,"Mallet,_Mr._Albert",male,31,1,1,S.C./PARIS 2079,37.0042,B96_B98,C
+819,0.0,lower,"Holm,_Mr._John_Fredrik_Alexander",male,43,0,0,C 7075,6.45,B96_B98,S
+820,0.0,lower,"Skoog,_Master._Karl_Thorsten",male,10,3,2,347088,27.9,B96_B98,S
+821,1.0,upper,"Hays,_Mrs._Charles_Melville_(Clara_Jennings_Gregg)",female,52,1,1,12749,93.5,B69,S
+822,1.0,lower,"Lulic,_Mr._Nikola",male,27,0,0,315098,8.6625,B96_B98,S
+823,0.0,upper,"Reuchlin,_Jonkheer._John_George",male,38,0,0,19972,0.0,B96_B98,S
+824,1.0,lower,"Moor,_Mrs._(Beila)",female,27,0,1,392096,12.475,E121,S
+825,0.0,lower,"Panula,_Master._Urho_Abraham",male,2,4,1,3101295,39.6875,B96_B98,S
+826,0.0,lower,"Flynn,_Mr._John",male,29,0,0,368323,6.95,B96_B98,Q
+827,0.0,lower,"Lam,_Mr._Len",male,29,0,0,1601,56.4958,B96_B98,S
+828,1.0,middle,"Mallet,_Master._Andre",male,1,0,2,S.C./PARIS 2079,37.0042,B96_B98,C
+829,1.0,lower,"McCormack,_Mr._Thomas_Joseph",male,29,0,0,367228,7.75,B96_B98,Q
+830,1.0,upper,"Stone,_Mrs._George_Nelson_(Martha_Evelyn)",female,62,0,0,113572,80.0,B28,S
+831,1.0,lower,"Yasbeck,_Mrs._Antoni_(Selini_Alexander)",female,15,1,0,2659,14.4542,B96_B98,C
+832,1.0,middle,"Richards,_Master._George_Sibley",male,0,1,1,29106,18.75,B96_B98,S
+833,0.0,lower,"Saad,_Mr._Amin",male,29,0,0,2671,7.2292,B96_B98,C
+834,0.0,lower,"Augustsson,_Mr._Albert",male,23,0,0,347468,7.8542,B96_B98,S
+835,0.0,lower,"Allum,_Mr._Owen_George",male,18,0,0,2223,8.3,B96_B98,S
+836,1.0,upper,"Compton,_Miss._Sara_Rebecca",female,39,1,1,PC 17756,83.1583,E49,C
+837,0.0,lower,"Pasic,_Mr._Jakob",male,21,0,0,315097,8.6625,B96_B98,S
+838,0.0,lower,"Sirota,_Mr._Maurice",male,29,0,0,392092,8.05,B96_B98,S
+839,1.0,lower,"Chip,_Mr._Chang",male,32,0,0,1601,56.4958,B96_B98,S
+840,1.0,upper,"Marechal,_Mr._Pierre",male,29,0,0,11774,29.7,C47,C
+841,0.0,lower,"Alhomaki,_Mr._Ilmari_Rudolf",male,20,0,0,SOTON/O2 3101287,7.925,B96_B98,S
+842,0.0,middle,"Mudd,_Mr._Thomas_Charles",male,16,0,0,S.O./P.P. 3,10.5,B96_B98,S
+843,1.0,upper,"Serepeca,_Miss._Augusta",female,30,0,0,113798,31.0,B96_B98,C
+844,0.0,lower,"Lemberopolous,_Mr._Peter_L",male,34,0,0,2683,6.4375,B96_B98,C
+845,0.0,lower,"Culumovic,_Mr._Jeso",male,17,0,0,315090,8.6625,B96_B98,S
+846,0.0,lower,"Abbing,_Mr._Anthony",male,42,0,0,C.A. 5547,7.55,B96_B98,S
+847,0.0,lower,"Sage,_Mr._Douglas_Bullen",male,29,8,2,CA. 2343,69.55,B96_B98,S
+848,0.0,lower,"Markoff,_Mr._Marin",male,35,0,0,349213,7.8958,B96_B98,C
+849,0.0,middle,"Harper,_Rev._John",male,28,0,1,248727,33.0,B96_B98,S
+850,1.0,upper,"Goldenberg,_Mrs._Samuel_L_(Edwiga_Grabowska)",female,29,1,0,17453,89.1042,C92,C
+851,0.0,lower,"Andersson,_Master._Sigvard_Harald_Elias",male,4,4,2,347082,31.275,B96_B98,S
+852,0.0,lower,"Svensson,_Mr._Johan",male,74,0,0,347060,7.775,B96_B98,S
+853,0.0,lower,"Boulos,_Miss._Nourelain",female,9,1,1,2678,15.2458,B96_B98,C
+854,1.0,upper,"Lines,_Miss._Mary_Conover",female,16,0,1,PC 17592,39.4,D28,S
+855,0.0,middle,"Carter,_Mrs._Ernest_Courtenay_(Lilian_Hughes)",female,44,1,0,244252,26.0,B96_B98,S
+856,1.0,lower,"Aks,_Mrs._Sam_(Leah_Rosen)",female,18,0,1,392091,9.35,B96_B98,S
+857,1.0,upper,"Wick,_Mrs._George_Dennick_(Mary_Hitchcock)",female,45,1,1,36928,164.8667,B96_B98,S
+858,1.0,upper,"Daly,_Mr._Peter_Denis_",male,51,0,0,113055,26.55,E17,S
+859,1.0,lower,"Baclini,_Mrs._Solomon_(Latifa_Qurban)",female,24,0,3,2666,19.2583,B96_B98,C
+860,0.0,lower,"Razi,_Mr._Raihed",male,29,0,0,2629,7.2292,B96_B98,C
+861,0.0,lower,"Hansen,_Mr._Claus_Peter",male,41,2,0,350026,14.1083,B96_B98,S
+862,0.0,middle,"Giles,_Mr._Frederick_Edward",male,21,1,0,28134,11.5,B96_B98,S
+863,1.0,upper,"Swift,_Mrs._Frederick_Joel_(Margaret_Welles_Barron)",female,48,0,0,17466,25.9292,D17,S
+864,0.0,lower,"Sage,_Miss._Dorothy_Edith_""Dolly""",female,29,8,2,CA. 2343,69.55,B96_B98,S
+865,0.0,middle,"Gill,_Mr._John_William",male,24,0,0,233866,13.0,B96_B98,S
+866,1.0,middle,"Bystrom,_Mrs._(Karolina)",female,42,0,0,236852,13.0,B96_B98,S
+867,1.0,middle,"Duran_y_More,_Miss._Asuncion",female,27,1,0,SC/PARIS 2149,13.8583,B96_B98,C
+868,0.0,upper,"Roebling,_Mr._Washington_Augustus_II",male,31,0,0,PC 17590,50.4958,A24,S
+869,0.0,lower,"van_Melkebeke,_Mr._Philemon",male,29,0,0,345777,9.5,B96_B98,S
+870,1.0,lower,"Johnson,_Master._Harold_Theodor",male,4,1,1,347742,11.1333,B96_B98,S
+871,0.0,lower,"Balkic,_Mr._Cerin",male,26,0,0,349248,7.8958,B96_B98,S
+872,1.0,upper,"Beckwith,_Mrs._Richard_Leonard_(Sallie_Monypeny)",female,47,1,1,11751,52.5542,D35,S
+873,0.0,upper,"Carlsson,_Mr._Frans_Olof",male,33,0,0,695,5.0,B51_B53_B55,S
+874,0.0,lower,"Vander_Cruyssen,_Mr._Victor",male,47,0,0,345765,9.0,B96_B98,S
+875,1.0,middle,"Abelson,_Mrs._Samuel_(Hannah_Wizosky)",female,28,1,0,P/PP 3381,24.0,B96_B98,C
+876,1.0,lower,"Najib,_Miss._Adele_Kiamie_""Jane""",female,15,0,0,2667,7.225,B96_B98,C
+877,0.0,lower,"Gustafsson,_Mr._Alfred_Ossian",male,20,0,0,7534,9.8458,B96_B98,S
+878,0.0,lower,"Petroff,_Mr._Nedelio",male,19,0,0,349212,7.8958,B96_B98,S
+879,0.0,lower,"Laleff,_Mr._Kristo",male,29,0,0,349217,7.8958,B96_B98,S
+880,1.0,upper,"Potter,_Mrs._Thomas_Jr_(Lily_Alexenia_Wilson)",female,56,0,1,11767,83.1583,C50,C
+881,1.0,middle,"Shelley,_Mrs._William_(Imanita_Parrish_Hall)",female,25,0,1,230433,26.0,B96_B98,S
+882,0.0,lower,"Markun,_Mr._Johann",male,33,0,0,349257,7.8958,B96_B98,S
+883,0.0,lower,"Dahlberg,_Miss._Gerda_Ulrika",female,22,0,0,7552,10.5167,B96_B98,S
+884,0.0,middle,"Banfield,_Mr._Frederick_James",male,28,0,0,C.A./SOTON 34068,10.5,B96_B98,S
+885,0.0,lower,"Sutehall,_Mr._Henry_Jr",male,25,0,0,SOTON/OQ 392076,7.05,B96_B98,S
+886,0.0,lower,"Rice,_Mrs._William_(Margaret_Norton)",female,39,0,5,382652,29.125,B96_B98,Q
+887,0.0,middle,"Montvila,_Rev._Juozas",male,27,0,0,211536,13.0,B96_B98,S
+888,1.0,upper,"Graham,_Miss._Margaret_Edith",female,19,0,0,112053,30.0,B42,S
+889,0.0,lower,"Johnston,_Miss._Catherine_Helen_""Carrie""",female,29,1,2,W./C. 6607,23.45,B96_B98,S
+890,1.0,upper,"Behr,_Mr._Karl_Howell",male,26,0,0,111369,30.0,C148,C
+891,0.0,lower,"Dooley,_Mr._Patrick",male,32,0,0,370376,7.75,B96_B98,Q

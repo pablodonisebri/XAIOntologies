@@ -1,0 +1,29 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  ex: http://www.titanicTrial
+  exi: http://www.titanicTrial#
+  owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+  PassengerMap:
+    sources:
+      - [clean.csv~csv]
+    s: exi:$(PassengerId)
+    po:
+      - [a,exi:$(Sex)~iri]
+      - [exi:age,$(Age),xsd:int]
+      - [exi:cabinClass,exi:$(Cabin)~iri]
+      - [exi:Parch,$(SibSp),xsd:int]
+      - [exi:SibSp,$(Parch),xsd:int]
+      - [exi:embarked,exi:$(Embarked)~iri]
+
+  CabinMap:
+    sources:
+      - [clean.csv~csv]
+    s: exi:$(Cabin)
+    po:
+      - [a,exi:$(Pclass)~iri]
+  

@@ -1,0 +1,160 @@
+0    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'ks' of type OWL File ...
+2    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'ks' in 0ms. Status: OK
+6    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'reasoner' of type closed world reasoner ...
+455  [main] INFO  org.dllearner.core.AbstractReasonerComponent  - Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+455  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - Materializing TBox...
+455  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising concepts
+463  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising object properties ...
+465  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising datatype properties
+517  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - ...TBox materialised in 62 ms.
+517  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'reasoner' in 511ms. Status: OK
+522  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'lp' of type PosNegLPStandard ...
+523  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'lp' in 0ms. Status: OK
+539  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'alg' of type CELOE ...
+566  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'alg' in 27ms. Status: OK
+621  [main] INFO  org.dllearner.cli.CLI  - Running algorithm instance "alg" (CELOE)
+622  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - start class:Thing
+705  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - more accurate (60,00%) class expression found after 34ms: Thing
+762  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - more accurate (100,00%) class expression found after 139ms: Age only forties
+1622 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - Algorithm terminated successfully (time: 1s 0ms, 2170 descriptions tested, 1327 nodes in the search tree).
+
+1622 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - number of retrievals: 2369
+retrieval reasoning time: 87ms ( 0ms per retrieval)
+number of instance checks: 31 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 45 (0 multiple)
+subsumption reasoning time: 28ms ( 0ms per subsumption check)
+overall reasoning time: 115ms
+
+1624 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - solutions:
+1: Age only forties (pred. acc.: 100,00%, F-measure: 100,00%)
+2: Age some forties (pred. acc.: 100,00%, F-measure: 100,00%)
+3: upper or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+4: upper or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+5: middle or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+6: middle or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+7: lower or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+8: lower or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+9: cabinClassType or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+10: cabinClassType or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+
+0    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'ks' of type OWL File ...
+2    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'ks' in 1ms. Status: OK
+6    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'reasoner' of type closed world reasoner ...
+327  [main] INFO  org.dllearner.core.AbstractReasonerComponent  - Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+327  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - Materializing TBox...
+327  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising concepts
+333  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising object properties ...
+334  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising datatype properties
+355  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - ...TBox materialised in 28 ms.
+356  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'reasoner' in 350ms. Status: OK
+360  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'lp' of type PosNegLPStandard ...
+360  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'lp' in 0ms. Status: OK
+379  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'alg' of type CELOE ...
+396  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'alg' in 17ms. Status: OK
+449  [main] INFO  org.dllearner.cli.CLI  - Running algorithm instance "alg" (CELOE)
+449  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - start class:Thing
+507  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - more accurate (60,00%) class expression found after 29ms: Thing
+547  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - more accurate (100,00%) class expression found after 97ms: Age only forties
+1449 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - Algorithm terminated successfully (time: 1s 0ms, 3300 descriptions tested, 1942 nodes in the search tree).
+
+1449 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - number of retrievals: 3554
+retrieval reasoning time: 95ms ( 0ms per retrieval)
+number of instance checks: 29 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 52 (0 multiple)
+subsumption reasoning time: 28ms ( 0ms per subsumption check)
+overall reasoning time: 124ms
+
+1451 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - solutions:
+1: Age only forties (pred. acc.: 100,00%, F-measure: 100,00%)
+2: Age some forties (pred. acc.: 100,00%, F-measure: 100,00%)
+3: upper or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+4: upper or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+5: middle or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+6: middle or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+7: lower or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+8: lower or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+9: cabinClassType or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+10: cabinClassType or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+
+0    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'ks' of type OWL File ...
+3    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'ks' in 1ms. Status: OK
+6    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'reasoner' of type closed world reasoner ...
+327  [main] INFO  org.dllearner.core.AbstractReasonerComponent  - Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+327  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - Materializing TBox...
+327  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising concepts
+336  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising object properties ...
+338  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising datatype properties
+362  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - ...TBox materialised in 35 ms.
+362  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'reasoner' in 356ms. Status: OK
+367  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'lp' of type PosNegLPStandard ...
+367  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'lp' in 0ms. Status: OK
+383  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'alg' of type CELOE ...
+400  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'alg' in 17ms. Status: OK
+443  [main] INFO  org.dllearner.cli.CLI  - Running algorithm instance "alg" (CELOE)
+443  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - start class:Thing
+498  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - more accurate (60,00%) class expression found after 28ms: Thing
+541  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - more accurate (100,00%) class expression found after 97ms: Age only forties
+1452 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - Algorithm terminated successfully (time: 1s 8ms, 3186 descriptions tested, 1844 nodes in the search tree).
+
+1452 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - number of retrievals: 3440
+retrieval reasoning time: 90ms ( 0ms per retrieval)
+number of instance checks: 29 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 52 (0 multiple)
+subsumption reasoning time: 26ms ( 0ms per subsumption check)
+overall reasoning time: 117ms
+
+1453 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - solutions:
+1: Age only forties (pred. acc.: 100,00%, F-measure: 100,00%)
+2: Age some forties (pred. acc.: 100,00%, F-measure: 100,00%)
+3: upper or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+4: upper or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+5: middle or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+6: middle or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+7: lower or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+8: lower or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+9: cabinClassType or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+10: cabinClassType or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+
+1    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'ks' of type OWL File ...
+3    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'ks' in 1ms. Status: OK
+6    [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'reasoner' of type closed world reasoner ...
+325  [main] INFO  org.dllearner.core.AbstractReasonerComponent  - Loaded reasoner: Pellet (com.clarkparsia.pellet.owlapiv3.PelletReasoner)
+325  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - Materializing TBox...
+326  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising concepts
+332  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising object properties ...
+333  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - materialising datatype properties
+355  [main] INFO  org.dllearner.reasoning.ClosedWorldReasoner  - ...TBox materialised in 29 ms.
+355  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'reasoner' in 349ms. Status: OK
+359  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'lp' of type PosNegLPStandard ...
+359  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'lp' in 0ms. Status: OK
+378  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - Initializing component 'alg' of type CELOE ...
+396  [main] INFO  org.dllearner.configuration.spring.ComponentInitializationBeanPostProcessor  - ... initialized component 'alg' in 18ms. Status: OK
+445  [main] INFO  org.dllearner.cli.CLI  - Running algorithm instance "alg" (CELOE)
+446  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - start class:Thing
+507  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - more accurate (60,00%) class expression found after 25ms: Thing
+541  [main] INFO  org.dllearner.algorithms.celoe.CELOE  - more accurate (100,00%) class expression found after 95ms: Age only forties
+1446 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - Algorithm terminated successfully (time: 1s 0ms, 3311 descriptions tested, 1953 nodes in the search tree).
+
+1446 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - number of retrievals: 3565
+retrieval reasoning time: 93ms ( 0ms per retrieval)
+number of instance checks: 29 (0 multiple)
+instance check reasoning time: 0ms ( 0ms per instance check)
+(complex) subsumption checks: 52 (0 multiple)
+subsumption reasoning time: 25ms ( 0ms per subsumption check)
+overall reasoning time: 118ms
+
+1448 [main] INFO  org.dllearner.algorithms.celoe.CELOE  - solutions:
+1: Age only forties (pred. acc.: 100,00%, F-measure: 100,00%)
+2: Age some forties (pred. acc.: 100,00%, F-measure: 100,00%)
+3: upper or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+4: upper or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+5: middle or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+6: middle or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+7: lower or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+8: lower or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+9: cabinClassType or (Age only forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+10: cabinClassType or (Age some forties) (pred. acc.: 100,00%, F-measure: 100,00%)
+

@@ -1,0 +1,268 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.titanicTrial#"
+     xml:base="http://www.titanicTrial"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:www="http://www.titanicTrial#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.titanicTrial"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.titanicTrial#Age -->
+
+    <owl:ObjectProperty rdf:about="http://www.titanicTrial#Age">
+        <rdfs:domain rdf:resource="http://www.titanicTrial#Passenger"/>
+        <rdfs:range rdf:resource="http://www.titanicTrial#age"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.titanicTrial#cabinClass -->
+
+    <owl:ObjectProperty rdf:about="http://www.titanicTrial#cabinClass">
+        <rdfs:domain rdf:resource="http://www.titanicTrial#Passenger"/>
+        <rdfs:range rdf:resource="http://www.titanicTrial#cabinClassType"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.titanicTrial#Passenger -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#Passenger"/>
+    
+
+
+    <!-- http://www.titanicTrial#age -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#age"/>
+    
+
+
+    <!-- http://www.titanicTrial#cabinClassType -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#cabinClassType"/>
+    
+
+
+    <!-- http://www.titanicTrial#female -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#female">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.titanicTrial#male"/>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.titanicTrial#Passenger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.titanicTrial#forties -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#forties">
+        <rdfs:subClassOf rdf:resource="http://www.titanicTrial#age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.titanicTrial#lower -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#lower">
+        <rdfs:subClassOf rdf:resource="http://www.titanicTrial#cabinClassType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.titanicTrial#male -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#male">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://www.titanicTrial#female"/>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.titanicTrial#Passenger"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.titanicTrial#middle -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#middle">
+        <rdfs:subClassOf rdf:resource="http://www.titanicTrial#cabinClassType"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.titanicTrial#thirties -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#thirties">
+        <rdfs:subClassOf rdf:resource="http://www.titanicTrial#age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.titanicTrial#twenties -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#twenties">
+        <rdfs:subClassOf rdf:resource="http://www.titanicTrial#age"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.titanicTrial#upper -->
+
+    <owl:Class rdf:about="http://www.titanicTrial#upper">
+        <rdfs:subClassOf rdf:resource="http://www.titanicTrial#cabinClassType"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.titanicTrial#Andres -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#Andres">
+        <rdf:type rdf:resource="http://www.titanicTrial#male"/>
+        <Age rdf:resource="http://www.titanicTrial#20s"/>
+        <cabinClass rdf:resource="http://www.titanicTrial#CA158"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#Antonio -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#Antonio">
+        <rdf:type rdf:resource="http://www.titanicTrial#male"/>
+        <Age rdf:resource="http://www.titanicTrial#40s"/>
+        <cabinClass rdf:resource="http://www.titanicTrial#CA157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#CA156 -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#CA156">
+        <rdf:type rdf:resource="http://www.titanicTrial#lower"/>
+        <Age rdf:resource="http://www.titanicTrial#40s"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#CA157 -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#CA157">
+        <rdf:type rdf:resource="http://www.titanicTrial#middle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#CA158 -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#CA158">
+        <rdf:type rdf:resource="http://www.titanicTrial#upper"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#Carolina -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#Carolina">
+        <rdf:type rdf:resource="http://www.titanicTrial#female"/>
+        <Age rdf:resource="http://www.titanicTrial#40s"/>
+        <cabinClass rdf:resource="http://www.titanicTrial#CA156"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#Felisa -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#Felisa">
+        <rdf:type rdf:resource="http://www.titanicTrial#female"/>
+        <Age rdf:resource="http://www.titanicTrial#20s"/>
+        <cabinClass rdf:resource="http://www.titanicTrial#CA158"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#Juan -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#Juan">
+        <rdf:type rdf:resource="http://www.titanicTrial#male"/>
+        <Age rdf:resource="http://www.titanicTrial#30s"/>
+        <cabinClass rdf:resource="http://www.titanicTrial#CA157"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#Julia -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#Julia">
+        <rdf:type rdf:resource="http://www.titanicTrial#female"/>
+        <Age rdf:resource="http://www.titanicTrial#40s"/>
+        <cabinClass rdf:resource="http://www.titanicTrial#CA156"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#20s -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#20s">
+        <rdf:type rdf:resource="http://www.titanicTrial#twenties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#30s -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#30s">
+        <rdf:type rdf:resource="http://www.titanicTrial#thirties"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.titanicTrial#40s -->
+
+    <owl:NamedIndividual rdf:about="http://www.titanicTrial#40s">
+        <rdf:type rdf:resource="http://www.titanicTrial#forties"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+

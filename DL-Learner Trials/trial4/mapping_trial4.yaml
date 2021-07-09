@@ -1,0 +1,61 @@
+prefixes:
+  rr: http://www.w3.org/ns/r2rml#
+  foaf: http://xmlns.com/foaf/0.1/
+  xsd: http://www.w3.org/2001/XMLSchema#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  rev: http://purl.org/stuff/rev#
+  schema: http://schema.org/
+  dct: http://purl.org/dc/terms/
+  rml: http://semweb.mmlab.be/ns/rml#
+  ql: http://semweb.mmlab.be/ns/ql#
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  ex: http://www.titanicTrial
+  exi: http://www.titanicTrial#
+  owl: http://www.w3.org/2002/07/owl#
+
+mappings:
+  PassengerMap:
+    sources:
+      - [clean.csv~csv]
+    s: exi:$(PassengerId)
+    po:
+      - [a,exi:$(Sex)~iri]
+      - [exi:Age,exi:$(Age)~iri]
+      - [exi:cabinClass,exi:$(Cabin)~iri]
+  SexMap:
+    sources:
+      - [clean.csv~csv]
+    s: exi:$(Sex)
+    po:
+      - [a,owl:Class]
+      - [rdfs:subClassOf,exi:Passenger~iri]
+
+  CabinMap:
+    sources:
+      - [clean.csv~csv]
+    s: exi:$(Cabin)
+    po:
+      - [a,exi:$(Pclass)~iri]
+  CabinClassTypeMap:
+    sources:
+      - [clean.csv~csv]
+    s: exi:$(Pclass)
+    po:
+      - [rdfs:subClassOf,exi:cabinClassType~iri]
+      - [a,owl:Class~iri]
+  AgeClassMap:
+    sources:
+      - [clean.csv~csv]
+    s: exi:$(Age)
+    po:
+      - [a,exi:$(AgeClass)~iri]
+  AgeClassTypeMap:
+    sources:
+      - [clean.csv~csv]
+    s: exi:$(AgeClass)
+    po:
+      - [a,owl:Class]
+      - [rdfs:subClassOf,exi:age~iri]
+      
+
+  

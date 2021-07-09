@@ -1,0 +1,5 @@
+TRIAL 1:
+
+This is a trial with the Titanic Dataset and the vocabulary i have made for it. 
+
+This is a very easy example, the positive examples are two passengers (one male and one female) both from the upper class. The result is correct.
